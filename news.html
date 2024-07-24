@@ -121,45 +121,239 @@
 </header>
 
 <main>
-
-    <section class="sitemap">
+    <section class="title-banner" style="
+        background-image: url('./img/newsbg.png')
+        ">
         <div class="container">
-            <div style="margin: 80px 0;">
-                <div>
-                    <a class="btn" href="./">Главная</a>
+            <div class="title-banner__info">
+                <div class="title-banner__text">
+                    <div class="section-header">
+                        <div class="section-header__title-block">
+                            <div class="section-header__subtitle">Будь в курсе</div>
+                            <h1 class="section-header__title">Новости</h1>
+                        </div>
+                    </div>
                 </div>
-                <div>
-                    <a class="btn" href="/catalog.html">Каталог</a>
-                </div>
-                <div>
-                    <a class="btn" href="./catalogComplects.html">Каталог комплектов</a>
-                </div>
-                <div>
-                    <a class="btn" href="./productCard.html">Карточка товара</a>
-                    <a class="btn" href="./complectCard.html">Карточка товара (комплект)</a>
-                </div>
-                <div>
-                    <a class="btn" href="./projectCard.html">Карточка проекта</a>
-                </div>
-                <div>
-                    <a class="btn" href="./projects.html">Проекты</a>
-                </div>
-                <div>
-                    <a class="btn" href="./services.html">Услуги</a>
-                </div>
-                <div>
-                    <a class="btn" href="./about.html">О компании</a>
-                </div>
-                <div>
-                    <a class="btn" href="./news.html">Новости</a>
-                </div>
-                <div>
-                    <a class="btn" href="./brandPage.html">Страница бренда</a>
+                <div class="title-banner__nav">
+                    <div class="breadcrumbs">
+    <div class="breadcrumbs__wrapper">
+        <ul class="breadcrumbs__list">
+            <li class="breadcrumbs__item">
+                <a href="#">
+                    Главная
+                </a>
+            </li>
+            <li class="breadcrumbs__item">
+                <a href="#">
+                    Товары
+                </a>
+            </li>
+            <li class="breadcrumbs__item">
+                <span>KEF Reference 5</span>
+            </li>
+        </ul>
+    </div>
+</div>
+
                 </div>
             </div>
         </div>
     </section>
-
+    <section class="news">
+        <div class="container">
+            <div class="news__wrapper">
+                <div class="news__categories catalog-sections">
+                    <div class="catalog-sections__four-type">
+                        <div class="catalog-sections__subtitle">
+                            Фильтр по Категории:
+                        </div>
+                        <div class="catalog-sections__accordion filter-accordion">
+                            <div class="filter-accordion__current">
+                                Все
+                            </div>
+                            <div class="filter-accordion__body">
+                                <div class="catalog-sections__list">
+                                    <div class="catalog-sections__item">
+                                        <input type="radio" name="bcat" id="bcat1">
+                                        <label for="bcat1">Все</label>
+                                    </div>
+                                    <div class="catalog-sections__item">
+                                        <input type="radio" name="bcat" id="bcat2">
+                                        <label for="bcat2">Акции</label>
+                                    </div>
+                                    <div class="catalog-sections__item">
+                                        <input type="radio" name="bcat" id="bcat3">
+                                        <label for="bcat3">Новости High-End</label>
+                                    </div>
+                                    <div class="catalog-sections__item">
+                                        <input type="radio" name="bcat" id="bcat4">
+                                        <label for="bcat4">Статьи</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="news__blocks">
+                    <div class="news-block">
+                        <div class="news-block__title">Наши проекты</div>
+                        <div class="news-block__text">
+                            <p>Домашний кинотеатр в гостиной или домашний кинозал в отдельном помещении – мы создаем
+                                любые системы. Опираясь на новейшие технологии и лучшие модели, мы тщательно
+                                прорабатываем каждое решение. При этом учитывается все – от акустики вашего помещения до
+                                его дизайна. А вы гарантированно получаете лучшую для своего бюджета систему!</p>
+                            <p>Когда мы беремся за новый проект, мы не предполагаем, а почти наверняка знаем, какой
+                                будет результат в итоге, поскольку отталкиваемся от своего огромного опыта.</p>
+                            <p>Это лишь небольшая часть выполненных нами проектов ДОМАШНИХ КИНОТЕАТРОВ</p>
+                            <p>Они все очень разные, но их объединяет то, что они обладают великолепными для своего
+                                бюджета характеристиками, и дарят гораздо больше возможностей и впечатлений, чем от них
+                                ожидают!</p>
+                        </div>
+                        <div class="news-block__items">
+                            <div class="project-card">
+                                <a class="project-card__picture" href="#">
+                                    <img src="./img/home/promo-1.jpg" srcset="./img/home/promo-1@2x.jpg 2x"
+                                         width="100%" height="100%" loading="lazy"
+                                         alt="Представляем нашу работу - аудио/видео система в ресторане">
+                                </a>
+                                <div class="project-card__content">
+                                    <div class="project-card__date">8 августа 2022</div>
+                                    <a href="#"><h4 class="project-card__title">Представляем нашу работу - аудио/видео
+                                        система в
+                                        ресторане</h4></a>
+                                    <div class="project-card__desc">
+                                        <p>Только что мы закончили очередной интересный проект – создание
+                                            аудиовизуальной
+                                            системы в ресторане.</p>
+                                    </div>
+                                    <a class="project-card__link" href="#">Подробнее +</a>
+                                </div>
+                            </div>
+                            <div class="project-card">
+                                <a class="project-card__picture" href="#">
+                                    <img src="./img/home/promo-1.jpg" srcset="./img/home/promo-1@2x.jpg 2x"
+                                         width="100%" height="100%" loading="lazy"
+                                         alt="Представляем нашу работу - аудио/видео система в ресторане">
+                                </a>
+                                <div class="project-card__content">
+                                    <div class="project-card__date">8 августа 2022</div>
+                                    <a href="#"><h4 class="project-card__title">Представляем нашу работу - аудио/видео
+                                        система в
+                                        ресторане</h4></a>
+                                    <div class="project-card__desc">
+                                        <p>Только что мы закончили очередной интересный проект – создание
+                                            аудиовизуальной
+                                            системы в ресторане.</p>
+                                    </div>
+                                    <a class="project-card__link" href="#">Подробнее +</a>
+                                </div>
+                            </div>
+                            <div class="project-card">
+                                <a class="project-card__picture" href="#">
+                                    <img src="./img/home/promo-1.jpg" srcset="./img/home/promo-1@2x.jpg 2x"
+                                         width="100%" height="100%" loading="lazy"
+                                         alt="Представляем нашу работу - аудио/видео система в ресторане">
+                                </a>
+                                <div class="project-card__content">
+                                    <div class="project-card__date">8 августа 2022</div>
+                                    <a href="#"><h4 class="project-card__title">Представляем нашу работу - аудио/видео
+                                        система в
+                                        ресторане</h4></a>
+                                    <div class="project-card__desc">
+                                        <p>Только что мы закончили очередной интересный проект – создание
+                                            аудиовизуальной
+                                            системы в ресторане.</p>
+                                    </div>
+                                    <a class="project-card__link" href="#">Подробнее +</a>
+                                </div>
+                            </div>
+                            <div class="project-card">
+                                <a class="project-card__picture" href="#">
+                                    <img src="./img/home/promo-1.jpg" srcset="./img/home/promo-1@2x.jpg 2x"
+                                         width="100%" height="100%" loading="lazy"
+                                         alt="Представляем нашу работу - аудио/видео система в ресторане">
+                                </a>
+                                <div class="project-card__content">
+                                    <div class="project-card__date">8 августа 2022</div>
+                                    <a href="#"><h4 class="project-card__title">Представляем нашу работу - аудио/видео
+                                        система в
+                                        ресторане</h4></a>
+                                    <div class="project-card__desc">
+                                        <p>Только что мы закончили очередной интересный проект – создание
+                                            аудиовизуальной
+                                            системы в ресторане.</p>
+                                    </div>
+                                    <a class="project-card__link" href="#">Подробнее +</a>
+                                </div>
+                            </div>
+                            <div class="project-card">
+                                <a class="project-card__picture" href="#">
+                                    <img src="./img/home/promo-1.jpg" srcset="./img/home/promo-1@2x.jpg 2x"
+                                         width="100%" height="100%" loading="lazy"
+                                         alt="Представляем нашу работу - аудио/видео система в ресторане">
+                                </a>
+                                <div class="project-card__content">
+                                    <div class="project-card__date">8 августа 2022</div>
+                                    <a href="#"><h4 class="project-card__title">Представляем нашу работу - аудио/видео
+                                        система в
+                                        ресторане</h4></a>
+                                    <div class="project-card__desc">
+                                        <p>Только что мы закончили очередной интересный проект – создание
+                                            аудиовизуальной
+                                            системы в ресторане.</p>
+                                    </div>
+                                    <a class="project-card__link" href="#">Подробнее +</a>
+                                </div>
+                            </div>
+                            <div class="project-card">
+                                <a class="project-card__picture" href="#">
+                                    <img src="./img/home/promo-1.jpg" srcset="./img/home/promo-1@2x.jpg 2x"
+                                         width="100%" height="100%" loading="lazy"
+                                         alt="Представляем нашу работу - аудио/видео система в ресторане">
+                                </a>
+                                <div class="project-card__content">
+                                    <div class="project-card__date">8 августа 2022</div>
+                                    <a href="#"><h4 class="project-card__title">Представляем нашу работу - аудио/видео
+                                        система в
+                                        ресторане</h4></a>
+                                    <div class="project-card__desc">
+                                        <p>Только что мы закончили очередной интересный проект – создание
+                                            аудиовизуальной
+                                            системы в ресторане.</p>
+                                    </div>
+                                    <a class="project-card__link" href="#">Подробнее +</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="news-block__pagination cinema-pagination">
+                            <div class="cinema-pagination__more">
+                                <span class="btn">Показать еще</span>
+                            </div>
+                            <div class="cinema-pagination__pages">
+                                <a href="#" class="cinema-pagination__prev">
+                                    <svg width="21" height="16" viewBox="0 0 21 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M12.2045 2.7955C11.7652 2.35616 11.7652 1.64384 12.2045 1.2045C12.6438 0.765165 13.3562 0.765165 13.7955 1.2045L19.7955 7.2045C20.2348 7.64384 20.2348 8.35616 19.7955 8.7955L13.7955 14.7955C13.3562 15.2348 12.6438 15.2348 12.2045 14.7955C11.7652 14.3562 11.7652 13.6438 12.2045 13.2045L16.284 9.125H1.75C1.12868 9.125 0.625 8.62132 0.625 8C0.625 7.37868 1.12868 6.875 1.75 6.875H16.284L12.2045 2.7955Z" fill="black"></path>
+                                    </svg>
+                                </a>
+                                <div class="cinema-pagination__list">
+                                    <span class="cinema-pagination__link current">1</span>
+                                    <a href="#" class="cinema-pagination__link">2</a>
+                                    <a href="#" class="cinema-pagination__link">3</a>
+                                    <a href="#" class="cinema-pagination__link">...</a>
+                                    <a href="#" class="cinema-pagination__link">12</a>
+                                </div>
+                                <a href="#" class="cinema-pagination__next">
+                                    <svg width="21" height="16" viewBox="0 0 21 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M12.2045 2.7955C11.7652 2.35616 11.7652 1.64384 12.2045 1.2045C12.6438 0.765165 13.3562 0.765165 13.7955 1.2045L19.7955 7.2045C20.2348 7.64384 20.2348 8.35616 19.7955 8.7955L13.7955 14.7955C13.3562 15.2348 12.6438 15.2348 12.2045 14.7955C11.7652 14.3562 11.7652 13.6438 12.2045 13.2045L16.284 9.125H1.75C1.12868 9.125 0.625 8.62132 0.625 8C0.625 7.37868 1.12868 6.875 1.75 6.875H16.284L12.2045 2.7955Z" fill="black"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </main>
 <footer class="footer">
     <div class="container">

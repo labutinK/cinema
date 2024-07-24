@@ -121,15 +121,8 @@
 </header>
 
 <main>
-    <section class="title-banner title-banner--mini" style="
-        background-image: url('./img/catalog/cat-full.jpg')
-        ">
-        <div class="container">
-            <div class="title-banner__text">
-                <h1 class="title-banner__title">Каталог</h1>
-            </div>
-            <div class="title-banner__nav">
-                <div class="breadcrumbs">
+    <section class="container">
+        <div class="breadcrumbs">
     <div class="breadcrumbs__wrapper">
         <ul class="breadcrumbs__list">
             <li class="breadcrumbs__item">
@@ -149,33 +142,67 @@
     </div>
 </div>
 
+    </section>
+    <section class="brand-page">
+        <div class="container">
+            <div class="brand-page__wrapper">
+                <div class="brand-page__top">
+                    <div class="brand-page__photo">
+                        <img src="./img/brandphoto.png" alt="">
+                    </div>
+                    <div class="brand-page__main-info">
+                        <h1 class="brand-page__title">Bang & olufsen</h1>
+                        <div class="brand-page__text">
+                            <p>Культовый бренд, икона дизайна в современной домашней электронике. Мало кто знает, что в
+                                большинстве современных моделей аудиоаппаратуры дизайн хоть какого-то элемента имеет
+                                корни именно в продукции этой датской компании.</p>
+                            <p>Качество звучания этой техники вполне удовлетворяет большинство запросов обычного
+                                меломана.</p>
+                            <p>Некоторые модели BANG & OLUFSEN давно стали символами. А резкий взлет компании начался с
+                                того, что в нее пришел великий дизайнер Якоб Йенсен. До этого над внешним обликом
+                                практически во всей индустрии бытовой электроники трудились, как правило, инженеры. Да и
+                                те, кто считался "дизайнером", редко отходил от функционально-утилитарного принципа.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="brand-page__photos-slider">
+                    <div class="swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="./img/catalog-card/product-desc-1.jpg"
+                                     alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./img/catalog-card/product-desc-2.jpg"
+                                     alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./img/catalog-card/product-desc-3.jpg"
+                                     alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination-circles swiper-pagination-circles--grey"></div>
+                </div>
+                <div class="brand-page__text">
+                    <p>Якоб Йенсен ввел в мир домашней аудио- видеотехнику совершенно новые формы и материалы. Он
+                        вдохновил тысячи дизайнеров по всему миру.</p>
+                    <p>С точки зрения функциональности, BANG & OLUFSEN тоже всегда стремилась создавать инновационные
+                        продукты. Все "фишки", которые впервые появились именно в Bang&Olufsen, трудно сосчитать.</p>
+                    <p>Компания старалась покрыть все виды домашней электроники. Но практически всегда это были
+                        "закрытые" системы, вещь в себе. Это не позволяло интегрировать в них инновационные аппараты и
+                        технологии других производителей, а угнаться сразу за всей индустрией во всем не под силу ни
+                        одной компании. Поэтому на определенном этапе BANG & OLUFSEN столкнулась с серьезным
+                        кризисом.</p>
+                    <p>В последние годы у компании настоящее "второе дыхание". Она выпустила огромное количество
+                        инновационных продуктов, предложив что-то совершенно оригинальное даже там, где все казалось
+                        давно придуманным. Многие из ее изделий не имеют прямых аналогов в мире.</p>
+                </div>
             </div>
         </div>
     </section>
     <section class="catalog">
         <div class="catalog__sections catalog-sections">
-            <div class="catalog-sections__first-type">
-                <div class="container">
-                    <div class="catalog-sections__top">
-                        <div class="catalog-sections__top-item">
-                            <input type="radio" id="cat1" name="topcat" checked>
-                            <label for="cat1">Все</label>
-                        </div>
-                        <div class="catalog-sections__top-item">
-                            <input type="radio" id="cat2" name="topcat">
-                            <label for="cat2">Активные</label>
-                        </div>
-                        <div class="catalog-sections__top-item">
-                            <input type="radio" id="cat3" name="topcat">
-                            <label for="cat3">Дизайнерские</label>
-                        </div>
-                        <div class="catalog-sections__top-item">
-                            <input type="radio" id="cat4" name="topcat">
-                            <label for="cat4">С Bluetooth</label>
-                        </div>
-                    </div>
-                </div>
-            </div>
             <div class="catalog-sections__second-type">
                 <div class="container">
                     <div class="catalog-sections__accordion filter-accordion">
@@ -185,7 +212,7 @@
                         <div class="filter-accordion__body">
                             <div class="catalog-sections__list">
                                 <div class="catalog-sections__item">
-                                    <input type="radio" id="subcat1" name="mcat">
+                                    <input type="radio" id="subcat1" name="mcat" active>
                                     <label for="subcat1">Все</label>
                                 </div>
                                 <div class="catalog-sections__item">
@@ -221,72 +248,6 @@
                                     <label for="subcat9">Мультирум</label>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="catalog-sections__third-type">
-                <div class="container">
-                    <div class="catalog-sections__accordion filter-accordion" data-patchy-wrapper>
-                        <div class="filter-accordion__current">
-                            Напольные
-                        </div>
-                        <div class="filter-accordion__body">
-                            <div class="catalog-sections__list">
-                                <div class="catalog-sections__item">
-                                    <input type="radio" name="bcat" id="bcat1">
-                                    <label for="bcat1">Напольные</label>
-                                </div>
-                                <div class="catalog-sections__item">
-                                    <input type="radio" name="bcat" id="bcat2">
-                                    <label for="bcat2">Полочные</label>
-                                </div>
-                                <div class="catalog-sections__item">
-                                    <input type="radio" name="bcat" id="bcat3">
-                                    <label for="bcat3">Центрального канала</label>
-                                </div>
-                                <div class="catalog-sections__item">
-                                    <input type="radio" name="bcat" id="bcat4">
-                                    <label for="bcat4">Настенные</label>
-                                </div>
-                                <div class="catalog-sections__item">
-                                    <input type="radio" name="bcat" id="bcat5">
-                                    <label for="bcat5">Встраиваемые</label>
-                                </div>
-                                <div class="catalog-sections__item">
-                                    <input type="radio" name="bcat" id="bcat6">
-                                    <label for="bcat6">Dolby Atmos</label>
-                                </div>
-                                <div class="catalog-sections__item">
-                                    <input type="radio" name="bcat" id="bcat7">
-                                    <label for="bcat7">Сабвуферы</label>
-                                </div>
-                                <div class="catalog-sections__item">
-                                    <input type="radio" name="bcat" id="bcat8">
-                                    <label for="bcat8">Саундбары</label>
-                                </div>
-                                <div class="catalog-sections__item">
-                                    <input type="radio" name="bcat" id="bcat9">
-                                    <label for="bcat9">Подвесные</label>
-                                </div>
-                                <div class="catalog-sections__item">
-                                    <input type="radio" name="bcat" id="bcat10">
-                                    <label for="bcat10">Полочные</label>
-                                </div>
-                                <div class="catalog-sections__item">
-                                    <input type="radio" name="bcat" id="bcat11">
-                                    <label for="bcat11">Подвесные</label>
-                                </div>
-                                <div class="catalog-sections__item">
-                                    <input type="radio" name="bcat" id="bcat12">
-                                    <label for="bcat12">Сабвуферы</label>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="catalog-sections__more" data-more-btn data-more-text="Показать всe +"
-                             data-less-text="Скрыть -"
-                        >
-                            Показать всe +
                         </div>
                     </div>
                 </div>
@@ -1091,7 +1052,6 @@
             </div>
         </div>
     </section>
-
 </main>
 <footer class="footer">
     <div class="container">

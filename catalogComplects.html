@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cinema</title>
-<script defer src="vendor.9da913c4db16f7dd3615.js"></script><script defer src="main.a52332bfe34bb6f15b19.js"></script><link href="css/styles.css" rel="stylesheet"></head>
+<script defer src="vendor.9da913c4db16f7dd3615.js"></script><script defer src="main.d617d6c1202a0d9a2962.js"></script><link href="css/styles.css" rel="stylesheet"></head>
 <body>
 <header class="header">
     <div class="container container--wide">
@@ -154,25 +154,29 @@
     </section>
     <section class="catalog">
         <div class="catalog__sections catalog-sections">
-            <div class="catalog-sections__first">
+            <div class="catalog-sections__first-type">
                 <div class="container">
                     <div class="catalog-sections__top">
-                        <a href="#" class="catalog-sections__top-item">
-                            Все
-                        </a>
-                        <a href="#" class="catalog-sections__top-item">
-                            Активные
-                        </a>
-                        <a href="#" class="catalog-sections__top-item">
-                            Дизайнерские
-                        </a>
-                        <a href="#" class="catalog-sections__top-item">
-                            С Bluetooth
-                        </a>
+                        <div class="catalog-sections__top-item">
+                            <input type="radio" id="cat1" name="topcat" checked>
+                            <label for="cat1">Все</label>
+                        </div>
+                        <div class="catalog-sections__top-item">
+                            <input type="radio" id="cat2" name="topcat">
+                            <label for="cat2">Активные</label>
+                        </div>
+                        <div class="catalog-sections__top-item">
+                            <input type="radio" id="cat3" name="topcat">
+                            <label for="cat3">Дизайнерские</label>
+                        </div>
+                        <div class="catalog-sections__top-item">
+                            <input type="radio" id="cat4" name="topcat">
+                            <label for="cat4">С Bluetooth</label>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="catalog-sections__second">
+            <div class="catalog-sections__second-type">
                 <div class="container">
                     <div class="catalog-sections__accordion filter-accordion">
                         <div class="filter-accordion__current">
@@ -180,23 +184,48 @@
                         </div>
                         <div class="filter-accordion__body">
                             <div class="catalog-sections__list">
-                                <a class="catalog-sections__item" href="#">Все</a>
-                                <a class="catalog-sections__item catalog-sections__item--active" href="#">Акустические
-                                    системы</a>
-                                <a class="catalog-sections__item" href="#">Усилители и ресиверы</a>
-                                <a class="catalog-sections__item" href="#">Медиа CD / BD проигрыватели</a>
-                                <a class="catalog-sections__item" href="#">Проигрыватели винила</a>
-                                <a class="catalog-sections__item" href="#">Портативное аудио</a>
-                                <a class="catalog-sections__item" href="#">Проекторы и экраны</a>
-                                <a class="catalog-sections__item" href="#">Кабели</a>
-                                <a class="catalog-sections__item" href="#">Музыка</a>
-                                <a class="catalog-sections__item" href="#">Мультирум</a>
+                                <div class="catalog-sections__item">
+                                    <input type="radio" id="subcat1" name="mcat">
+                                    <label for="subcat1">Все</label>
+                                </div>
+                                <div class="catalog-sections__item">
+                                    <input type="radio" id="subcat2" name="mcat">
+                                    <label for="subcat2">Усилители и ресиверы</label>
+                                </div>
+                                <div class="catalog-sections__item">
+                                    <input type="radio" id="subcat3" name="mcat">
+                                    <label for="subcat3">Медиа CD / BD проигрыватели</label>
+                                </div>
+                                <div class="catalog-sections__item">
+                                    <input type="radio" id="subcat4" name="mcat">
+                                    <label for="subcat4">Проигрыватели винила</label>
+                                </div>
+                                <div class="catalog-sections__item">
+                                    <input type="radio" id="subcat5" name="mcat">
+                                    <label for="subcat5">Портативное аудио</label>
+                                </div>
+                                <div class="catalog-sections__item">
+                                    <input type="radio" id="subcat6" name="mcat">
+                                    <label for="subcat6">Проекторы и экраны</label>
+                                </div>
+                                <div class="catalog-sections__item">
+                                    <input type="radio" id="subcat7" name="mcat">
+                                    <label for="subcat7">Кабели</label>
+                                </div>
+                                <div class="catalog-sections__item">
+                                    <input type="radio" id="subcat8" name="mcat">
+                                    <label for="subcat8">Музыка</label>
+                                </div>
+                                <div class="catalog-sections__item">
+                                    <input type="radio" id="subcat9" name="mcat">
+                                    <label for="subcat9">Мультирум</label>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="catalog-sections__third">
+            <div class="catalog-sections__third-type">
                 <div class="container">
                     <div class="catalog-sections__accordion filter-accordion" data-patchy-wrapper>
                         <div class="filter-accordion__current">
@@ -204,23 +233,54 @@
                         </div>
                         <div class="filter-accordion__body">
                             <div class="catalog-sections__list">
-                                <a class="catalog-sections__item catalog-sections__item--active" href="#">Напольные</a>
-                                <a class="catalog-sections__item " href="#">Полочные</a>
-                                <a class="catalog-sections__item " href="#">Центрального канала</a>
-                                <a class="catalog-sections__item " href="#">Настенные</a>
-                                <a class="catalog-sections__item " href="#">Встраиваемые</a>
-                                <a class="catalog-sections__item " href="#">Dolby Atmos</a>
-                                <a class="catalog-sections__item " href="#">Сабвуферы</a>
-                                <a class="catalog-sections__item " href="#">Саундбары</a>
-                                <a class="catalog-sections__item " href="#">Подвесные</a>
-                                <a class="catalog-sections__item " href="#">Полочные</a>
-                                <a class="catalog-sections__item " href="#">Центрального канала</a>
-                                <a class="catalog-sections__item " href="#">Настенные</a>
-                                <a class="catalog-sections__item " href="#">Встраиваемые</a>
-                                <a class="catalog-sections__item " href="#">Dolby Atmos</a>
-                                <a class="catalog-sections__item " href="#">Сабвуферы</a>
-                                <a class="catalog-sections__item " href="#">Саундбары</a>
-                                <a class="catalog-sections__item " href="#">Подвесные</a>
+                                <div class="catalog-sections__item">
+                                    <input type="radio" name="bcat" id="bcat1">
+                                    <label for="bcat1">Напольные</label>
+                                </div>
+                                <div class="catalog-sections__item">
+                                    <input type="radio" name="bcat" id="bcat2">
+                                    <label for="bcat2">Полочные</label>
+                                </div>
+                                <div class="catalog-sections__item">
+                                    <input type="radio" name="bcat" id="bcat3">
+                                    <label for="bcat3">Центрального канала</label>
+                                </div>
+                                <div class="catalog-sections__item">
+                                    <input type="radio" name="bcat" id="bcat4">
+                                    <label for="bcat4">Настенные</label>
+                                </div>
+                                <div class="catalog-sections__item">
+                                    <input type="radio" name="bcat" id="bcat5">
+                                    <label for="bcat5">Встраиваемые</label>
+                                </div>
+                                <div class="catalog-sections__item">
+                                    <input type="radio" name="bcat" id="bcat6">
+                                    <label for="bcat6">Dolby Atmos</label>
+                                </div>
+                                <div class="catalog-sections__item">
+                                    <input type="radio" name="bcat" id="bcat7">
+                                    <label for="bcat7">Сабвуферы</label>
+                                </div>
+                                <div class="catalog-sections__item">
+                                    <input type="radio" name="bcat" id="bcat8">
+                                    <label for="bcat8">Саундбары</label>
+                                </div>
+                                <div class="catalog-sections__item">
+                                    <input type="radio" name="bcat" id="bcat9">
+                                    <label for="bcat9">Подвесные</label>
+                                </div>
+                                <div class="catalog-sections__item">
+                                    <input type="radio" name="bcat" id="bcat10">
+                                    <label for="bcat10">Полочные</label>
+                                </div>
+                                <div class="catalog-sections__item">
+                                    <input type="radio" name="bcat" id="bcat11">
+                                    <label for="bcat11">Подвесные</label>
+                                </div>
+                                <div class="catalog-sections__item">
+                                    <input type="radio" name="bcat" id="bcat12">
+                                    <label for="bcat12">Сабвуферы</label>
+                                </div>
                             </div>
                         </div>
                         <div class="catalog-sections__more" data-more-btn data-more-text="Показать всe +"
