@@ -121,15 +121,8 @@
 </header>
 
 <main>
-    <section class="title-banner title-banner--mini" style="
-        background-image: url('./img/catalog/cat-full.jpg')
-        ">
-        <div class="container">
-            <div class="title-banner__text">
-                <h1 class="title-banner__title">Каталог</h1>
-            </div>
-            <div class="title-banner__nav">
-                <div class="breadcrumbs">
+    <section class="container">
+        <div class="breadcrumbs">
     <div class="breadcrumbs__wrapper">
         <ul class="breadcrumbs__list">
             <li class="breadcrumbs__item">
@@ -149,949 +142,471 @@
     </div>
 </div>
 
-            </div>
-        </div>
     </section>
-    <section class="catalog">
-        <div class="catalog__sections catalog-sections">
-            <div class="catalog-sections__first-type">
-                <div class="container">
-                    <div class="catalog-sections__top">
-                        <div class="catalog-sections__top-item">
-                            <input type="radio" id="cat1" name="topcat" checked>
-                            <label for="cat1">Все</label>
-                        </div>
-                        <div class="catalog-sections__top-item">
-                            <input type="radio" id="cat2" name="topcat">
-                            <label for="cat2">Активные</label>
-                        </div>
-                        <div class="catalog-sections__top-item">
-                            <input type="radio" id="cat3" name="topcat">
-                            <label for="cat3">Дизайнерские</label>
-                        </div>
-                        <div class="catalog-sections__top-item">
-                            <input type="radio" id="cat4" name="topcat">
-                            <label for="cat4">С Bluetooth</label>
-                        </div>
+    <section class="lk">
+        <div class="container">
+            <div class="lk__wrapper">
+                <div class="lk__title-block">
+                    <div class="lk__title-info">
+                        <h1 class="lk__title">
+                            Личный кабинет
+                        </h1>
+                        <nav class="lk__menu">
+                            <ul>
+                                <li class="active">
+                                    <span>Профиль</span>
+                                </li>
+                                <li>
+                                    <a href="#">Мои заказы</a>
+                                </li>
+                                <li>
+                                    <a href="#">Избранное</a>
+                                </li>
+                                <li>
+                                    <a href="#">Уведомления</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="lk__exit">
+                        <a href="#" class="btn">Выход</a>
                     </div>
                 </div>
-            </div>
-            <div class="catalog-sections__second-type">
-                <div class="container">
-                    <div class="catalog-sections__accordion filter-accordion">
-                        <div class="filter-accordion__current">
-                            Акустические системы
+                <div class="lk-profile">
+                    <div class="lk-profile__top">
+                        <h3 class="lk-profile__introduce">Уважаемый(ая), Герман</h3>
+                        <div class="lk-profile__intro">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.
                         </div>
-                        <div class="filter-accordion__body">
-                            <div class="catalog-sections__list">
-                                <div class="catalog-sections__item">
-                                    <input type="radio" id="subcat1" name="mcat">
-                                    <label for="subcat1">Все</label>
-                                </div>
-                                <div class="catalog-sections__item">
-                                    <input type="radio" id="subcat2" name="mcat">
-                                    <label for="subcat2">Усилители и ресиверы</label>
-                                </div>
-                                <div class="catalog-sections__item">
-                                    <input type="radio" id="subcat3" name="mcat">
-                                    <label for="subcat3">Медиа CD / BD проигрыватели</label>
-                                </div>
-                                <div class="catalog-sections__item">
-                                    <input type="radio" id="subcat4" name="mcat">
-                                    <label for="subcat4">Проигрыватели винила</label>
-                                </div>
-                                <div class="catalog-sections__item">
-                                    <input type="radio" id="subcat5" name="mcat">
-                                    <label for="subcat5">Портативное аудио</label>
-                                </div>
-                                <div class="catalog-sections__item">
-                                    <input type="radio" id="subcat6" name="mcat">
-                                    <label for="subcat6">Проекторы и экраны</label>
-                                </div>
-                                <div class="catalog-sections__item">
-                                    <input type="radio" id="subcat7" name="mcat">
-                                    <label for="subcat7">Кабели</label>
-                                </div>
-                                <div class="catalog-sections__item">
-                                    <input type="radio" id="subcat8" name="mcat">
-                                    <label for="subcat8">Музыка</label>
-                                </div>
-                                <div class="catalog-sections__item">
-                                    <input type="radio" id="subcat9" name="mcat">
-                                    <label for="subcat9">Мультирум</label>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="catalog-sections__third-type">
-                <div class="container">
-                    <div class="catalog-sections__accordion filter-accordion" data-patchy-wrapper>
-                        <div class="filter-accordion__current">
-                            Напольные
-                        </div>
-                        <div class="filter-accordion__body">
-                            <div class="catalog-sections__list">
-                                <div class="catalog-sections__item">
-                                    <input type="radio" name="bcat" id="bcat1">
-                                    <label for="bcat1">Напольные</label>
-                                </div>
-                                <div class="catalog-sections__item">
-                                    <input type="radio" name="bcat" id="bcat2">
-                                    <label for="bcat2">Полочные</label>
-                                </div>
-                                <div class="catalog-sections__item">
-                                    <input type="radio" name="bcat" id="bcat3">
-                                    <label for="bcat3">Центрального канала</label>
-                                </div>
-                                <div class="catalog-sections__item">
-                                    <input type="radio" name="bcat" id="bcat4">
-                                    <label for="bcat4">Настенные</label>
-                                </div>
-                                <div class="catalog-sections__item">
-                                    <input type="radio" name="bcat" id="bcat5">
-                                    <label for="bcat5">Встраиваемые</label>
-                                </div>
-                                <div class="catalog-sections__item">
-                                    <input type="radio" name="bcat" id="bcat6">
-                                    <label for="bcat6">Dolby Atmos</label>
-                                </div>
-                                <div class="catalog-sections__item">
-                                    <input type="radio" name="bcat" id="bcat7">
-                                    <label for="bcat7">Сабвуферы</label>
-                                </div>
-                                <div class="catalog-sections__item">
-                                    <input type="radio" name="bcat" id="bcat8">
-                                    <label for="bcat8">Саундбары</label>
-                                </div>
-                                <div class="catalog-sections__item">
-                                    <input type="radio" name="bcat" id="bcat9">
-                                    <label for="bcat9">Подвесные</label>
-                                </div>
-                                <div class="catalog-sections__item">
-                                    <input type="radio" name="bcat" id="bcat10">
-                                    <label for="bcat10">Полочные</label>
-                                </div>
-                                <div class="catalog-sections__item">
-                                    <input type="radio" name="bcat" id="bcat11">
-                                    <label for="bcat11">Подвесные</label>
-                                </div>
-                                <div class="catalog-sections__item">
-                                    <input type="radio" name="bcat" id="bcat12">
-                                    <label for="bcat12">Сабвуферы</label>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="catalog-sections__more" data-more-btn data-more-text="Показать всe +"
-                             data-less-text="Скрыть -"
-                        >
-                            Показать всe +
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="catalog__products catalog-products">
-            <div class="container">
-                <div class="catalog-products__wrapper" data-burger-wrapper>
-                    <!--catalog__sidebar-->
-                    <div data-burger class="catalog-products__sidebar catalog-sidebar">
-                        <div class="catalog-sidebar__top">
-                            <span>Фильтры</span>
-                            <div class="catalog-sidebar__close" data-burger-close>
-                                <svg width="29" height="29" viewBox="0 0 29 29" fill="none"
+                        <div class="lk-profile__banner lk-notification">
+                            <div class="lk-notification__close">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
                                      xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M7.07151 7.07107L21.2136 21.2132M21.2136 7.07107L7.07151 21.2132"
+                                    <path d="M1.06956 1.07107L15.2117 15.2132M15.2117 1.07107L1.06956 15.2132"
                                           stroke="black" stroke-width="2"/>
                                 </svg>
                             </div>
+                            <div class="lk-notification__info">
+                                <p>Герман, ваш заказ <b>#234-51 от 21.11.2021</b> перешел в новый статус <b>“Передан на
+                                    доставку”</b></p>
+                                <p>Для получения дополнительной информациии или если у вас есть вопросы пожалуйства
+                                    обратитесь
+                                    к вашему менеджеру <b>@stepan_neveroyatny</b></p>
+
+                                <span class="lk-notification__date">12.12.2021</span>
+                            </div>
                         </div>
-                        <div class="catalog__filter-box">
-                            <div class="filter-box__title">Бренд</div>
-                            <div class="filter-box__cont">
-                                <div class="filter__brands">
-                                    <div class="filter__brands-preset">
-                                        <span class="brands-preset-item">Популярные</span>
-                                        <span class="brands-preset-item">A</span><span
-                                            class="brands-preset-item">B</span><span
-                                            class="brands-preset-item">C</span><span
-                                            class="brands-preset-item">D</span>
-                                        <span class="brands-preset-item">E</span><span
-                                            class="brands-preset-item">F</span><span
-                                            class="brands-preset-item">G</span><span
-                                            class="brands-preset-item">H</span>
-                                        <span class="brands-preset-item">I</span><span
-                                            class="brands-preset-item">J</span><span
-                                            class="brands-preset-item active">K</span><span
-                                            class="brands-preset-item">L</span>
-                                        <span class="brands-preset-item">M</span><span
-                                            class="brands-preset-item">N</span><span
-                                            class="brands-preset-item">O</span><span
-                                            class="brands-preset-item">P</span>
-                                        <span class="brands-preset-item">Q</span><span
-                                            class="brands-preset-item">R</span><span
-                                            class="brands-preset-item">S</span><span
-                                            class="brands-preset-item">T</span>
-                                        <span class="brands-preset-item">U</span><span
-                                            class="brands-preset-item">V</span><span
-                                            class="brands-preset-item">W</span><span
-                                            class="brands-preset-item">Y</span>
-                                        <span class="brands-preset-item">Z</span>
+                        <div class="lk-profile__banner lk-notification">
+                            <div class="lk-notification__close">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1.06956 1.07107L15.2117 15.2132M15.2117 1.07107L1.06956 15.2132"
+                                          stroke="black" stroke-width="2"/>
+                                </svg>
+                            </div>
+                            <div class="lk-notification__info">
+                                <p>Герман, ваш заказ <b>#234-51 от 21.11.2021</b> перешел в новый статус <b>“Передан на
+                                    доставку”</b></p>
+                                <p>Для получения дополнительной информациии или если у вас есть вопросы пожалуйства
+                                    обратитесь
+                                    к вашему менеджеру <b>@stepan_neveroyatny</b></p>
+                                <span class="lk-notification__date">12.12.2021</span>
+                            </div>
+                        </div>
+                        <div class="lk-profile__form profile-form">
+                            <h3 class="profile-form__title">Профиль</h3>
+                            <form action="POST">
+                                <div class="profile-form__fields">
+                                    <div class="profile-form__field">
+                                        <label>Фамилия:</label>
+                                        <input disabled type="text" name="auth_last_name" value="Потрясающий">
+                                        <span class="profile-form__edit-btn">
+                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                 xmlns="http://www.w3.org/2000/svg">
+                                                <g clip-path="url(#clip0_274_865)">
+                                                    <path d="M15.1774 0.822563C14.0807 -0.274188 12.2961 -0.274188 11.1994 0.822563L2.06839 9.95356C2.0562 9.9655 2.04464 9.97822 2.03373 9.99156C1.95886 10.083 2.0767 9.83397 0.0710464 14.7049C-0.0735472 15.0561 0.00654646 15.4564 0.275046 15.725C0.543764 15.9937 0.944233 16.0734 1.29508 15.929C6.12541 13.94 5.94723 14.033 6.04644 13.9316L15.1775 4.80056C16.2741 3.70384 16.2741 1.91931 15.1774 0.822563ZM0.938014 15.062L1.40211 13.9348L2.06514 14.5979L0.938014 15.062ZM3.00439 14.2111L1.78886 12.9956L2.56236 11.1171L4.88288 13.4376L3.00439 14.2111ZM5.71166 12.9404L3.0596 10.2883L9.21035 4.13756L11.8624 6.78959L5.71166 12.9404ZM12.5254 6.12659L9.87338 3.47456L10.5364 2.81153L13.1884 5.46359L12.5254 6.12659ZM14.5144 4.13763L13.8514 4.80062L11.1994 2.14859L11.8624 1.48559C12.5936 0.754406 13.7833 0.754438 14.5145 1.48559C15.2456 2.21675 15.2456 3.40644 14.5144 4.13763Z"
+                                                          fill="black"/>
+                                                </g>
+                                                <defs>
+                                                    <clipPath id="clip0_274_865">
+                                                        <rect width="16" height="16" fill="white"/>
+                                                    </clipPath>
+                                                </defs>
+                                            </svg>
+                                        </span>
                                     </div>
-                                    <div class="filter__brands-result" data-patchy-wrapper>
-                                        <div class="brands-result-list">
-                                            <div class="arrow-checkbox">
-                                                <input type="checkbox" name="brands" id="brands-1" checked>
-                                                <label for="brands-1">Kauber</label>
-                                            </div>
-                                            <div class="arrow-checkbox">
-                                                <input type="checkbox" name="brands" id="brands-2">
-                                                <label for="brands-2">KEF</label>
-                                            </div>
-                                            <div class="arrow-checkbox">
-                                                <input type="checkbox" name="brands" id="brands-3">
-                                                <label for="brands-3">Key Digital</label>
-                                            </div>
-                                            <div class="arrow-checkbox">
-                                                <input type="checkbox" name="brands" id="brands-4">
-                                                <label for="brands-4">Kimber</label>
-                                            </div>
-                                            <div class="arrow-checkbox">
-                                                <input type="checkbox" name="brands" id="brands-5">
-                                                <label for="brands-5">Klipsch</label>
-                                            </div>
-                                            <div class="arrow-checkbox">
-                                                <input type="checkbox" name="brands" id="brands-6">
-                                                <label for="brands-6">Kordz</label>
-                                            </div>
-                                            <div class="arrow-checkbox">
-                                                <input type="checkbox" name="brands" id="brands-7">
-                                                <label for="brands-7">Kromax</label>
-                                            </div>
-                                            <div class="arrow-checkbox">
-                                                <input type="checkbox" name="brands" id="brands-8">
-                                                <label for="brands-8">Kromax 123</label>
-                                            </div>
-                                            <div class="arrow-checkbox">
-                                                <input type="checkbox" name="brands" id="brands-9">
-                                                <label for="brands-9">Kromax 345</label>
-                                            </div>
-                                        </div>
-                                        <span class="brands-list-more" data-more-btn data-more-text="Показать всe +"
-                                              data-less-text="Скрыть -"
-                                        >
-                                            Показать всe +
+                                    <div class="profile-form__field">
+                                        <label>Имя:</label>
+                                        <input disabled type="text" name="auth_name" value="Герман">
+                                        <span class="profile-form__edit-btn">
+                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                 xmlns="http://www.w3.org/2000/svg">
+                                                <g clip-path="url(#clip0_274_865)">
+                                                    <path d="M15.1774 0.822563C14.0807 -0.274188 12.2961 -0.274188 11.1994 0.822563L2.06839 9.95356C2.0562 9.9655 2.04464 9.97822 2.03373 9.99156C1.95886 10.083 2.0767 9.83397 0.0710464 14.7049C-0.0735472 15.0561 0.00654646 15.4564 0.275046 15.725C0.543764 15.9937 0.944233 16.0734 1.29508 15.929C6.12541 13.94 5.94723 14.033 6.04644 13.9316L15.1775 4.80056C16.2741 3.70384 16.2741 1.91931 15.1774 0.822563ZM0.938014 15.062L1.40211 13.9348L2.06514 14.5979L0.938014 15.062ZM3.00439 14.2111L1.78886 12.9956L2.56236 11.1171L4.88288 13.4376L3.00439 14.2111ZM5.71166 12.9404L3.0596 10.2883L9.21035 4.13756L11.8624 6.78959L5.71166 12.9404ZM12.5254 6.12659L9.87338 3.47456L10.5364 2.81153L13.1884 5.46359L12.5254 6.12659ZM14.5144 4.13763L13.8514 4.80062L11.1994 2.14859L11.8624 1.48559C12.5936 0.754406 13.7833 0.754438 14.5145 1.48559C15.2456 2.21675 15.2456 3.40644 14.5144 4.13763Z"
+                                                          fill="black"/>
+                                                </g>
+                                                <defs>
+                                                    <clipPath id="clip0_274_865">
+                                                        <rect width="16" height="16" fill="white"/>
+                                                    </clipPath>
+                                                </defs>
+                                            </svg>
+                                        </span>
+                                    </div>
+                                    <div class="profile-form__field">
+                                        <label>Отчество:</label>
+                                        <input disabled type="text" name="auth_second_name" value="Спиридонович">
+                                        <span class="profile-form__edit-btn">
+                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                 xmlns="http://www.w3.org/2000/svg">
+                                                <g clip-path="url(#clip0_274_865)">
+                                                    <path d="M15.1774 0.822563C14.0807 -0.274188 12.2961 -0.274188 11.1994 0.822563L2.06839 9.95356C2.0562 9.9655 2.04464 9.97822 2.03373 9.99156C1.95886 10.083 2.0767 9.83397 0.0710464 14.7049C-0.0735472 15.0561 0.00654646 15.4564 0.275046 15.725C0.543764 15.9937 0.944233 16.0734 1.29508 15.929C6.12541 13.94 5.94723 14.033 6.04644 13.9316L15.1775 4.80056C16.2741 3.70384 16.2741 1.91931 15.1774 0.822563ZM0.938014 15.062L1.40211 13.9348L2.06514 14.5979L0.938014 15.062ZM3.00439 14.2111L1.78886 12.9956L2.56236 11.1171L4.88288 13.4376L3.00439 14.2111ZM5.71166 12.9404L3.0596 10.2883L9.21035 4.13756L11.8624 6.78959L5.71166 12.9404ZM12.5254 6.12659L9.87338 3.47456L10.5364 2.81153L13.1884 5.46359L12.5254 6.12659ZM14.5144 4.13763L13.8514 4.80062L11.1994 2.14859L11.8624 1.48559C12.5936 0.754406 13.7833 0.754438 14.5145 1.48559C15.2456 2.21675 15.2456 3.40644 14.5144 4.13763Z"
+                                                          fill="black"/>
+                                                </g>
+                                                <defs>
+                                                    <clipPath id="clip0_274_865">
+                                                        <rect width="16" height="16" fill="white"/>
+                                                    </clipPath>
+                                                </defs>
+                                            </svg>
+                                        </span>
+                                    </div>
+                                    <div class="profile-form__field">
+                                        <label>E-mail:</label>
+                                        <input disabled type="text" name="auth_mail" value="potrys@gmail.com">
+                                        <span class="profile-form__edit-btn">
+                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                 xmlns="http://www.w3.org/2000/svg">
+                                                <g clip-path="url(#clip0_274_865)">
+                                                    <path d="M15.1774 0.822563C14.0807 -0.274188 12.2961 -0.274188 11.1994 0.822563L2.06839 9.95356C2.0562 9.9655 2.04464 9.97822 2.03373 9.99156C1.95886 10.083 2.0767 9.83397 0.0710464 14.7049C-0.0735472 15.0561 0.00654646 15.4564 0.275046 15.725C0.543764 15.9937 0.944233 16.0734 1.29508 15.929C6.12541 13.94 5.94723 14.033 6.04644 13.9316L15.1775 4.80056C16.2741 3.70384 16.2741 1.91931 15.1774 0.822563ZM0.938014 15.062L1.40211 13.9348L2.06514 14.5979L0.938014 15.062ZM3.00439 14.2111L1.78886 12.9956L2.56236 11.1171L4.88288 13.4376L3.00439 14.2111ZM5.71166 12.9404L3.0596 10.2883L9.21035 4.13756L11.8624 6.78959L5.71166 12.9404ZM12.5254 6.12659L9.87338 3.47456L10.5364 2.81153L13.1884 5.46359L12.5254 6.12659ZM14.5144 4.13763L13.8514 4.80062L11.1994 2.14859L11.8624 1.48559C12.5936 0.754406 13.7833 0.754438 14.5145 1.48559C15.2456 2.21675 15.2456 3.40644 14.5144 4.13763Z"
+                                                          fill="black"/>
+                                                </g>
+                                                <defs>
+                                                    <clipPath id="clip0_274_865">
+                                                        <rect width="16" height="16" fill="white"/>
+                                                    </clipPath>
+                                                </defs>
+                                            </svg>
+                                        </span>
+                                    </div>
+                                    <div class="profile-form__field">
+                                        <label>Телефон:</label>
+                                        <input disabled type="text" name="auth_tel" value="+7 (999) 777-77-77">
+                                        <span class="profile-form__edit-btn">
+                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                 xmlns="http://www.w3.org/2000/svg">
+                                                <g clip-path="url(#clip0_274_865)">
+                                                    <path d="M15.1774 0.822563C14.0807 -0.274188 12.2961 -0.274188 11.1994 0.822563L2.06839 9.95356C2.0562 9.9655 2.04464 9.97822 2.03373 9.99156C1.95886 10.083 2.0767 9.83397 0.0710464 14.7049C-0.0735472 15.0561 0.00654646 15.4564 0.275046 15.725C0.543764 15.9937 0.944233 16.0734 1.29508 15.929C6.12541 13.94 5.94723 14.033 6.04644 13.9316L15.1775 4.80056C16.2741 3.70384 16.2741 1.91931 15.1774 0.822563ZM0.938014 15.062L1.40211 13.9348L2.06514 14.5979L0.938014 15.062ZM3.00439 14.2111L1.78886 12.9956L2.56236 11.1171L4.88288 13.4376L3.00439 14.2111ZM5.71166 12.9404L3.0596 10.2883L9.21035 4.13756L11.8624 6.78959L5.71166 12.9404ZM12.5254 6.12659L9.87338 3.47456L10.5364 2.81153L13.1884 5.46359L12.5254 6.12659ZM14.5144 4.13763L13.8514 4.80062L11.1994 2.14859L11.8624 1.48559C12.5936 0.754406 13.7833 0.754438 14.5145 1.48559C15.2456 2.21675 15.2456 3.40644 14.5144 4.13763Z"
+                                                          fill="black"/>
+                                                </g>
+                                                <defs>
+                                                    <clipPath id="clip0_274_865">
+                                                        <rect width="16" height="16" fill="white"/>
+                                                    </clipPath>
+                                                </defs>
+                                            </svg>
                                         </span>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="catalog__filter-box">
-                            <div class="filter-box__title">Стоимость</div>
-                            <div class="filter-box__cont">
-                                <div class="filter__price">
-                                    <div class="filter__price-input filter-input-raw">
-                                        <input type="text" class="input-min" name="minPrice" placeholder="От 0">
-                                        <input type="text" class="input-max" name="maxPrice"
-                                               placeholder="До 8 990 000">
-                                    </div>
-                                    <div class="slider">
-                                        <div class="progress"></div>
-                                    </div>
-                                    <div class="range-input">
-                                        <input type="range" class="range-min" min="0" max="8990000" value="0"
-                                               step="100">
-                                        <input type="range" class="range-max" min="0" max="8990000" value="8990000"
-                                               step="100">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="catalog__filter-box">
-                            <div class="filter-box__title">Фильтр</div>
-                            <div class="filter-box__cont">
-                                <div class="filter-group__block filter-group__block--active">
-                                    <div class="filter-group__block__header">
-                                        <div class="filter-group__block-name">
-                                            <span>Технические характеристики</span><span
-                                                class="spoiler"></span></div>
-                                    </div>
-                                    <div class="filter-group__block-list">
-                                        <div class="filter-prop__item">
-                                            <div class="filter-prop__item-name">Максимальная мощность, Дб</div>
-                                            <div class="filter-prop__item-row">
-                                                <div class="filter-prop-input-row ">
-                                                    <div class="filter-prop-input">
-                                                        <span class="filter-prop-input-text">От</span><input
-                                                            type="text"
-                                                            name="power[]">
-                                                    </div>
-                                                    <div class="filter-prop-input">
-                                                        <span class="filter-prop-input-text">До</span><input
-                                                            type="text"
-                                                            name="power[]">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="filter-prop__item">
-                                            <div class="filter-prop__item-name">Звуковое давление</div>
-                                            <div class="filter-prop__item-row">
-                                                <div class="filter-prop-input-row">
-                                                    <div class="filter-prop-input">
-                                                        <span class="filter-prop-input-text">От</span><input
-                                                            type="text"
-                                                            name="sound">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="filter-prop__item">
-                                            <div class="filter-prop__item-name">Чувствительность</div>
-                                            <div class="filter-prop__item-row">
-                                                <div class="filter-prop-input-row">
-                                                    <div class="filter-prop-input">
-                                                        <span class="filter-prop-input-text">От</span><input
-                                                            type="text"
-                                                            name="sound">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="filter-prop__item">
-                                            <div class="filter-prop__item-name">Сопротивление</div>
-                                            <div class="filter-prop__item-row">
-                                                <div class="filter-prop-input-row">
-                                                    <div class="filter-prop-input">
-                                                        <span class="filter-prop-input-text">От</span><input
-                                                            type="text"
-                                                            name="sound">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="filter-prop__item">
-                                            <div class="filter-prop__item-name">Диапазон частот, Гц</div>
-                                            <div class="filter-prop__item-row">
-                                                <div class="filter-prop-input-row">
-                                                    <div class="filter-prop-input">
-                                                        <span class="filter-prop-input-text">Низ, до</span><input
-                                                            type="text" name="power[]">
-                                                    </div>
-                                                    <div class="filter-prop-input">
-                                                        <span class="filter-prop-input-text">Верх, до</span><input
-                                                            type="text" name="power[]">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                </div>
-                                <!-- filter-group__block -->
-                                <div class="filter-group__block filter-group__block--active">
-                                    <div class="filter-group__block__header">
-                                        <div class="filter-group__block-name"><span>Габаритные размеры</span><span
-                                                class="spoiler"></span></div>
-                                    </div>
-                                    <div class="filter-group__block-list">
-
-                                        <div class="filter-prop__item">
-                                            <div class="filter-prop__item-name">Высота, см</div>
-                                            <div class="filter-prop__item-row">
-                                                <div class="filter-prop-input-row ">
-                                                    <div class="filter-prop-input">
-                                                        <span class="filter-prop-input-text">От</span><input
-                                                            type="text"
-                                                            name="power[]">
-                                                    </div>
-                                                    <div class="filter-prop-input ">
-                                                        <span class="filter-prop-input-text">До</span><input
-                                                            type="text"
-                                                            name="power[]">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="filter-prop__item">
-                                            <div class="filter-prop__item-name">Глубина, см</div>
-                                            <div class="filter-prop__item-row">
-                                                <div class="filter-prop-input-row ">
-                                                    <div class="filter-prop-input">
-                                                        <span class="filter-prop-input-text">От</span><input
-                                                            type="text"
-                                                            name="power[]">
-                                                    </div>
-                                                    <div class="filter-prop-input">
-                                                        <span class="filter-prop-input-text">До</span><input
-                                                            type="text"
-                                                            name="power[]">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="filter-prop__item">
-                                            <div class="filter-prop__item-name">Ширина, см</div>
-                                            <div class="filter-prop__item-row">
-                                                <div class="filter-prop-input-row">
-                                                    <div class="filter-prop-input">
-                                                        <span class="filter-prop-input-text">От</span><input
-                                                            type="text"
-                                                            name="power[]">
-                                                    </div>
-                                                    <div class="filter-prop-input">
-                                                        <span class="filter-prop-input-text">До</span><input
-                                                            type="text"
-                                                            name="power[]">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                </div>
-
-                                <div class="filter-single__block">
-                                    <div class="filter-single__inner">
-                                        <div class="filter-prop-checkbox">
-                                            <input type="checkbox" id="checkbox-1" name="filter">
-                                            <label for="checkbox-1"
-                                                   class="filter-prop-checkbox__label">Влагозащищенные</label>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="filter-single__block">
-                                    <div class="filter-single__inner">
-                                        <div class="filter-prop-checkbox">
-                                            <input type="checkbox" id="checkbox-2" name="filter">
-                                            <label for="checkbox-2"
-                                                   class="filter-prop-checkbox__label">Активные</label>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="filter-single__block">
-                                    <div class="filter-single__inner">
-                                        <div class="filter-prop-checkbox">
-                                            <input type="checkbox" id="checkbox-3" name="filter">
-                                            <label for="checkbox-3"
-                                                   class="filter-prop-checkbox__label">Беспроводные</label>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- filter-group__block -->
-                                <div class="filter-group__block">
-                                    <div class="filter-group__block__header">
-                                        <div class="filter-group__block-name"><span>Отделка</span><span
-                                                class="spoiler"></span></div>
-                                    </div>
-                                    <div class="filter-group__block-list">
-
-                                        <div class="filter-prop__item">
-                                            <div class="filter-prop-checkbox">
-                                                <input type="checkbox" id="checkbox-4" name="filter">
-                                                <label for="checkbox-4" class="filter-prop-checkbox__label">Отделка
-                                                    1</label>
-                                            </div>
-                                        </div>
-
-                                        <div class="filter-prop__item">
-                                            <div class="filter-prop-checkbox">
-                                                <input type="checkbox" id="checkbox-5" name="filter">
-                                                <label for="checkbox-5" class="filter-prop-checkbox__label">Отделка
-                                                    2</label>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                </div>
-
-                            </div> <!-- filter-box__cont -->
-                        </div>
-                        <div class="catalog-sidebar__btns">
-                            <button class="btn">
-                                Очистить
-                            </button>
-                        </div>
-
-                    </div>
-                    <!--catalog__sidebar-->
-                    <div class="catalog-products__content">
-                        <div class="catalog-products__top">
-                            <span class="catalog-products__filter" data-burger-btn>
-                                Фильтры
-                            </span>
-                            <div class="catalog-products__sort">
-                                <div class="catalog-sort">
-                                    <div class="catalog-sort__label">Сортировка:</div>
-                                    <div class="catalog-sort__body">
-                                        <div class="catalog-sort__item-to-choose">По наличию</div>
-                                        <div class="catalog-sort__item-to-choose" data-active="">По популярности</div>
-                                        <div class="catalog-sort__item-to-choose">Сначала дешевле</div>
-                                        <div class="catalog-sort__item-to-choose">Сначала дороже</div>
-                                    </div>
-                                    <div class="catalog-sort__current">По популярности</div>
-                                </div>
-                            </div>
-                            <div class="catalog-products__view">
-                                <a href="#" class="catalog__layout-btn active layout-box">
-                                    <svg width="19" height="19" viewBox="0 0 19 19" fill="none"
-                                         xmlns="http://www.w3.org/2000/svg">
-                                        <rect width="5" height="5" fill="#C4C4C4"/>
-                                        <rect y="7" width="5" height="5" fill="#C4C4C4"/>
-                                        <rect y="14" width="5" height="5" fill="#C4C4C4"/>
-                                        <rect x="7" width="5" height="5" fill="#C4C4C4"/>
-                                        <rect x="7" y="7" width="5" height="5" fill="#C4C4C4"/>
-                                        <rect x="7" y="14" width="5" height="5" fill="#C4C4C4"/>
-                                        <rect x="14" width="5" height="5" fill="#C4C4C4"/>
-                                        <rect x="14" y="7" width="5" height="5" fill="#C4C4C4"/>
-                                        <rect x="14" y="14" width="5" height="5" fill="#C4C4C4"/>
-                                    </svg>
-                                </a>
-                                <a href="#" class="catalog__layout-btn layout-list">
-                                    <svg width="19" height="19" viewBox="0 0 19 19" fill="none"
-                                         xmlns="http://www.w3.org/2000/svg">
-                                        <rect width="19" height="5" fill="#C4C4C4"/>
-                                        <rect y="7" width="19" height="5" fill="#C4C4C4"/>
-                                        <rect y="14" width="19" height="5" fill="#C4C4C4"/>
-                                    </svg>
-                                </a>
-                            </div>
-                        </div>
-
-                        <div class="catalog-products__list">
-                            <div class="product-card">
-                                <a href="/product_card.html" class="product-card__img">
-                                    <span class="product-card__brand-logo">
-                                      <img src="./img/catalog/cat-item-brand-1.png" alt="product-card-brand">
+                                <div class="profile-form__bottom">
+                                    <span class="profile-form__name">
+                                        Способ получения уведомлений:
                                     </span>
-                                    <img src="./img/catalog/cat-item-1.jpg" alt="product-card">
-                                </a>
-                                <div class="product-card__content">
-                                    <div class="product-card__brand">KEF</div>
-                                    <a class="product-card__title" href="/product_card.html">KEF R11</a>
-                                    <div class="product-card__desc">Напольная акустическая система</div>
-                                    <div class="product-card__actions">
-                                        <a class="product-card__compare" href="#">
-                                            <svg width="15" height="15" viewBox="0 0 15 15" fill="none"
-                                                 xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M0.542179 3.72219L3.67822 0.549388H3.22794C3.58274 0.908348 3.93757 1.26734 4.29397 1.62792C4.85563 2.19616 5.41569 2.76278 5.97732 3.33099C6.1062 3.46138 6.23508 3.59177 6.36395 3.72216C6.48169 3.84128 6.69807 3.85093 6.81424 3.72216C6.93039 3.59338 6.93993 3.39378 6.81424 3.26659C6.45944 2.90763 6.10461 2.54864 5.74821 2.18806C5.18654 1.61982 4.62649 1.0532 4.06485 0.484984C3.93598 0.354596 3.8071 0.224208 3.67822 0.0938229C3.5573 -0.0285148 3.35045 -0.0301249 3.22794 0.0938229C2.87313 0.452783 2.5183 0.811772 2.1619 1.17235C1.60024 1.74059 1.04018 2.30722 0.47855 2.87543C0.349673 3.00582 0.220795 3.13621 0.0919199 3.26659C-0.0258207 3.38571 -0.0353664 3.60462 0.0919199 3.72216C0.219206 3.84128 0.416493 3.85093 0.542208 3.72216L0.542179 3.72219Z"
-                                                      fill="black"></path>
-                                                <path d="M3.13569 0.322249V0.636143V1.49573V2.76097V4.31275V6.00458V7.71249V9.30451V10.6567V11.6241C3.13569 11.7771 3.13251 11.9316 3.13569 12.0845V12.1038C3.13569 12.2729 3.28207 12.4338 3.45392 12.4258C3.62577 12.4178 3.77215 12.2841 3.77215 12.1038V11.79V10.9304V9.66513V8.11334V6.42151V4.7136V3.12158V1.7694V0.801958C3.77215 0.649035 3.77533 0.49451 3.77215 0.341565V0.322249C3.77215 0.153227 3.62577 -0.007747 3.45392 0.000288752C3.2805 0.00833745 3.13569 0.141945 3.13569 0.322249Z"
-                                                      fill="black"></path>
-                                                <path d="M8.1857 11.7319C8.5405 12.0909 8.89533 12.4499 9.25173 12.8105C9.81339 13.3787 10.3735 13.9453 10.9351 14.5135C11.064 14.6439 11.1928 14.7743 11.3217 14.9047C11.4426 15.027 11.6495 15.0287 11.772 14.9047C12.1268 14.5457 12.4816 14.1868 12.838 13.8262C13.3997 13.2579 13.9598 12.6913 14.5214 12.1231C14.6503 11.9927 14.7791 11.8623 14.908 11.7319C15.0258 11.6128 15.0353 11.3939 14.908 11.2764C14.7807 11.1588 14.5834 11.1492 14.4577 11.2764C14.1029 11.6353 13.7481 11.9943 13.3917 12.3549C12.83 12.9231 12.27 13.4898 11.7083 14.058C11.5795 14.1884 11.4506 14.3188 11.3217 14.4491H11.772L10.706 13.3706C10.1459 12.804 9.58425 12.2374 9.02262 11.6691C8.89374 11.5387 8.76486 11.4083 8.63599 11.278C8.51824 11.1588 8.30187 11.1492 8.1857 11.278C8.06955 11.4051 8.06 11.6047 8.1857 11.7319V11.7319Z"
-                                                      fill="black"></path>
-                                                <path d="M11.8644 14.6776V14.3637V13.5041V12.2389V10.6871V8.99524V7.28733V5.69531V4.34313V3.37569C11.8644 3.22277 11.8676 3.06824 11.8644 2.9153V2.89598C11.8644 2.72696 11.7181 2.56598 11.5462 2.57402C11.3744 2.58205 11.228 2.71568 11.228 2.89598V3.20987V4.06946V5.3347V6.88648V8.57832V10.2862V11.8782V13.2304V14.1979C11.228 14.3508 11.2248 14.5053 11.228 14.6583V14.6776C11.228 14.8466 11.3744 15.0076 11.5462 14.9995C11.7196 14.9915 11.8644 14.8579 11.8644 14.6776Z"
-                                                      fill="black"></path>
-                                            </svg>
-                                            <span>Сравнить</span>
-                                        </a>
-                                        <a class="product-card__favorite" href="#">
-                                            <svg width="15" height="15" viewBox="0 0 16 15" fill="none"
-                                                 xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M12.7426 15L7.87494 12.4365L3.0073 15L3.93656 9.5732L0 5.72946L5.44118 4.93709L7.87506 0L10.3088 4.9374L15.75 5.72977L11.8119 9.5732L12.7426 15ZM0.962493 6.04252L4.41872 9.41683L3.60254 14.1794L7.87512 11.9305L12.1477 14.1794L11.3314 9.41527L14.7876 6.04096L10.0113 5.34515L7.87515 1.01357L5.73886 5.34671L0.962493 6.04252Z"
-                                                      fill="black"></path>
-                                            </svg>
-                                            <span>Добавить в избранное</span>
-                                        </a>
-                                    </div>
-                                    <div class="product-card__availability">
-                                        <div class="product-card__price">
-                                            от 599 990 ₽
-                                        </div>
-                                        <div class="product-card__stocks">
-                                            <div class="stocks-status in_stocks">В наличии</div>
-                                        </div>
-                                    </div>
-                                    <div class="product-card__btns">
-                                        <a href="#" class="btn btn--dark">в корзину</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="product-card">
-                                <a href="/product_card.html" class="product-card__img">
-                                    <span class="product-card__brand-logo">
-                                      <img src="./img/catalog/cat-item-brand-1.png" alt="product-card-brand">
+                                    <div class="profile-form__checkboxes">
+                                    <span class="form-input">
+                                        <input type="checkbox" name="teleg1" id="telegush">
+                                        <label for="telegush">
+                                            Telegram</label>
                                     </span>
-                                    <img src="./img/catalog/cat-item-1.jpg" alt="product-card">
-                                </a>
-                                <div class="product-card__content">
-                                    <div class="product-card__brand">KEF</div>
-                                    <a class="product-card__title" href="/product_card.html">KEF R11</a>
-                                    <div class="product-card__desc">Напольная акустическая система</div>
-                                    <div class="product-card__actions">
-                                        <a class="product-card__compare" href="#">
-                                            <svg width="15" height="15" viewBox="0 0 15 15" fill="none"
-                                                 xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M0.542179 3.72219L3.67822 0.549388H3.22794C3.58274 0.908348 3.93757 1.26734 4.29397 1.62792C4.85563 2.19616 5.41569 2.76278 5.97732 3.33099C6.1062 3.46138 6.23508 3.59177 6.36395 3.72216C6.48169 3.84128 6.69807 3.85093 6.81424 3.72216C6.93039 3.59338 6.93993 3.39378 6.81424 3.26659C6.45944 2.90763 6.10461 2.54864 5.74821 2.18806C5.18654 1.61982 4.62649 1.0532 4.06485 0.484984C3.93598 0.354596 3.8071 0.224208 3.67822 0.0938229C3.5573 -0.0285148 3.35045 -0.0301249 3.22794 0.0938229C2.87313 0.452783 2.5183 0.811772 2.1619 1.17235C1.60024 1.74059 1.04018 2.30722 0.47855 2.87543C0.349673 3.00582 0.220795 3.13621 0.0919199 3.26659C-0.0258207 3.38571 -0.0353664 3.60462 0.0919199 3.72216C0.219206 3.84128 0.416493 3.85093 0.542208 3.72216L0.542179 3.72219Z"
-                                                      fill="black"></path>
-                                                <path d="M3.13569 0.322249V0.636143V1.49573V2.76097V4.31275V6.00458V7.71249V9.30451V10.6567V11.6241C3.13569 11.7771 3.13251 11.9316 3.13569 12.0845V12.1038C3.13569 12.2729 3.28207 12.4338 3.45392 12.4258C3.62577 12.4178 3.77215 12.2841 3.77215 12.1038V11.79V10.9304V9.66513V8.11334V6.42151V4.7136V3.12158V1.7694V0.801958C3.77215 0.649035 3.77533 0.49451 3.77215 0.341565V0.322249C3.77215 0.153227 3.62577 -0.007747 3.45392 0.000288752C3.2805 0.00833745 3.13569 0.141945 3.13569 0.322249Z"
-                                                      fill="black"></path>
-                                                <path d="M8.1857 11.7319C8.5405 12.0909 8.89533 12.4499 9.25173 12.8105C9.81339 13.3787 10.3735 13.9453 10.9351 14.5135C11.064 14.6439 11.1928 14.7743 11.3217 14.9047C11.4426 15.027 11.6495 15.0287 11.772 14.9047C12.1268 14.5457 12.4816 14.1868 12.838 13.8262C13.3997 13.2579 13.9598 12.6913 14.5214 12.1231C14.6503 11.9927 14.7791 11.8623 14.908 11.7319C15.0258 11.6128 15.0353 11.3939 14.908 11.2764C14.7807 11.1588 14.5834 11.1492 14.4577 11.2764C14.1029 11.6353 13.7481 11.9943 13.3917 12.3549C12.83 12.9231 12.27 13.4898 11.7083 14.058C11.5795 14.1884 11.4506 14.3188 11.3217 14.4491H11.772L10.706 13.3706C10.1459 12.804 9.58425 12.2374 9.02262 11.6691C8.89374 11.5387 8.76486 11.4083 8.63599 11.278C8.51824 11.1588 8.30187 11.1492 8.1857 11.278C8.06955 11.4051 8.06 11.6047 8.1857 11.7319V11.7319Z"
-                                                      fill="black"></path>
-                                                <path d="M11.8644 14.6776V14.3637V13.5041V12.2389V10.6871V8.99524V7.28733V5.69531V4.34313V3.37569C11.8644 3.22277 11.8676 3.06824 11.8644 2.9153V2.89598C11.8644 2.72696 11.7181 2.56598 11.5462 2.57402C11.3744 2.58205 11.228 2.71568 11.228 2.89598V3.20987V4.06946V5.3347V6.88648V8.57832V10.2862V11.8782V13.2304V14.1979C11.228 14.3508 11.2248 14.5053 11.228 14.6583V14.6776C11.228 14.8466 11.3744 15.0076 11.5462 14.9995C11.7196 14.9915 11.8644 14.8579 11.8644 14.6776Z"
-                                                      fill="black"></path>
-                                            </svg>
-                                            <span>Сравнить</span>
-                                        </a>
-                                        <a class="product-card__favorite" href="#">
-                                            <svg width="15" height="15" viewBox="0 0 16 15" fill="none"
-                                                 xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M12.7426 15L7.87494 12.4365L3.0073 15L3.93656 9.5732L0 5.72946L5.44118 4.93709L7.87506 0L10.3088 4.9374L15.75 5.72977L11.8119 9.5732L12.7426 15ZM0.962493 6.04252L4.41872 9.41683L3.60254 14.1794L7.87512 11.9305L12.1477 14.1794L11.3314 9.41527L14.7876 6.04096L10.0113 5.34515L7.87515 1.01357L5.73886 5.34671L0.962493 6.04252Z"
-                                                      fill="black"></path>
-                                            </svg>
-                                            <span>Добавить в избранное</span>
-                                        </a>
-                                    </div>
-                                    <div class="product-card__availability">
-                                        <div class="product-card__price">
-                                            от 599 990 ₽
-                                        </div>
-                                        <div class="product-card__stocks">
-                                            <div class="stocks-status in_stocks">В наличии</div>
-                                        </div>
-                                    </div>
-                                    <div class="product-card__btns">
-                                        <a href="#" class="btn btn--dark">в корзину</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="product-card">
-                                <a href="/product_card.html" class="product-card__img">
-                                    <span class="product-card__brand-logo">
-                                      <img src="./img/catalog/cat-item-brand-1.png" alt="product-card-brand">
+                                        <span class="form-input">
+                                        <input type="checkbox" name="smspush" id="smspush">
+                                        <label for="smspush">
+                                            Cмс</label>
                                     </span>
-                                    <img src="./img/catalog/cat-item-1.jpg" alt="product-card">
-                                </a>
-                                <div class="product-card__content">
-                                    <div class="product-card__brand">KEF</div>
-                                    <a class="product-card__title" href="/product_card.html">KEF R11</a>
-                                    <div class="product-card__desc">Напольная акустическая система</div>
-                                    <div class="product-card__actions">
-                                        <a class="product-card__compare" href="#">
-                                            <svg width="15" height="15" viewBox="0 0 15 15" fill="none"
-                                                 xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M0.542179 3.72219L3.67822 0.549388H3.22794C3.58274 0.908348 3.93757 1.26734 4.29397 1.62792C4.85563 2.19616 5.41569 2.76278 5.97732 3.33099C6.1062 3.46138 6.23508 3.59177 6.36395 3.72216C6.48169 3.84128 6.69807 3.85093 6.81424 3.72216C6.93039 3.59338 6.93993 3.39378 6.81424 3.26659C6.45944 2.90763 6.10461 2.54864 5.74821 2.18806C5.18654 1.61982 4.62649 1.0532 4.06485 0.484984C3.93598 0.354596 3.8071 0.224208 3.67822 0.0938229C3.5573 -0.0285148 3.35045 -0.0301249 3.22794 0.0938229C2.87313 0.452783 2.5183 0.811772 2.1619 1.17235C1.60024 1.74059 1.04018 2.30722 0.47855 2.87543C0.349673 3.00582 0.220795 3.13621 0.0919199 3.26659C-0.0258207 3.38571 -0.0353664 3.60462 0.0919199 3.72216C0.219206 3.84128 0.416493 3.85093 0.542208 3.72216L0.542179 3.72219Z"
-                                                      fill="black"></path>
-                                                <path d="M3.13569 0.322249V0.636143V1.49573V2.76097V4.31275V6.00458V7.71249V9.30451V10.6567V11.6241C3.13569 11.7771 3.13251 11.9316 3.13569 12.0845V12.1038C3.13569 12.2729 3.28207 12.4338 3.45392 12.4258C3.62577 12.4178 3.77215 12.2841 3.77215 12.1038V11.79V10.9304V9.66513V8.11334V6.42151V4.7136V3.12158V1.7694V0.801958C3.77215 0.649035 3.77533 0.49451 3.77215 0.341565V0.322249C3.77215 0.153227 3.62577 -0.007747 3.45392 0.000288752C3.2805 0.00833745 3.13569 0.141945 3.13569 0.322249Z"
-                                                      fill="black"></path>
-                                                <path d="M8.1857 11.7319C8.5405 12.0909 8.89533 12.4499 9.25173 12.8105C9.81339 13.3787 10.3735 13.9453 10.9351 14.5135C11.064 14.6439 11.1928 14.7743 11.3217 14.9047C11.4426 15.027 11.6495 15.0287 11.772 14.9047C12.1268 14.5457 12.4816 14.1868 12.838 13.8262C13.3997 13.2579 13.9598 12.6913 14.5214 12.1231C14.6503 11.9927 14.7791 11.8623 14.908 11.7319C15.0258 11.6128 15.0353 11.3939 14.908 11.2764C14.7807 11.1588 14.5834 11.1492 14.4577 11.2764C14.1029 11.6353 13.7481 11.9943 13.3917 12.3549C12.83 12.9231 12.27 13.4898 11.7083 14.058C11.5795 14.1884 11.4506 14.3188 11.3217 14.4491H11.772L10.706 13.3706C10.1459 12.804 9.58425 12.2374 9.02262 11.6691C8.89374 11.5387 8.76486 11.4083 8.63599 11.278C8.51824 11.1588 8.30187 11.1492 8.1857 11.278C8.06955 11.4051 8.06 11.6047 8.1857 11.7319V11.7319Z"
-                                                      fill="black"></path>
-                                                <path d="M11.8644 14.6776V14.3637V13.5041V12.2389V10.6871V8.99524V7.28733V5.69531V4.34313V3.37569C11.8644 3.22277 11.8676 3.06824 11.8644 2.9153V2.89598C11.8644 2.72696 11.7181 2.56598 11.5462 2.57402C11.3744 2.58205 11.228 2.71568 11.228 2.89598V3.20987V4.06946V5.3347V6.88648V8.57832V10.2862V11.8782V13.2304V14.1979C11.228 14.3508 11.2248 14.5053 11.228 14.6583V14.6776C11.228 14.8466 11.3744 15.0076 11.5462 14.9995C11.7196 14.9915 11.8644 14.8579 11.8644 14.6776Z"
-                                                      fill="black"></path>
-                                            </svg>
-                                            <span>Сравнить</span>
-                                        </a>
-                                        <a class="product-card__favorite" href="#">
-                                            <svg width="15" height="15" viewBox="0 0 16 15" fill="none"
-                                                 xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M12.7426 15L7.87494 12.4365L3.0073 15L3.93656 9.5732L0 5.72946L5.44118 4.93709L7.87506 0L10.3088 4.9374L15.75 5.72977L11.8119 9.5732L12.7426 15ZM0.962493 6.04252L4.41872 9.41683L3.60254 14.1794L7.87512 11.9305L12.1477 14.1794L11.3314 9.41527L14.7876 6.04096L10.0113 5.34515L7.87515 1.01357L5.73886 5.34671L0.962493 6.04252Z"
-                                                      fill="black"></path>
-                                            </svg>
-                                            <span>Добавить в избранное</span>
-                                        </a>
-                                    </div>
-                                    <div class="product-card__availability">
-                                        <div class="product-card__price">
-                                            от 599 990 ₽
-                                        </div>
-                                        <div class="product-card__stocks">
-                                            <div class="stocks-status in_stocks">В наличии</div>
-                                        </div>
-                                    </div>
-                                    <div class="product-card__btns">
-                                        <a href="#" class="btn btn--dark">в корзину</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="product-card">
-                                <a href="/product_card.html" class="product-card__img">
-                                    <span class="product-card__brand-logo">
-                                      <img src="./img/catalog/cat-item-brand-1.png" alt="product-card-brand">
+                                        <span class="form-input">
+                                        <input type="checkbox" name="teleg1" id="emailpush">
+                                        <label for="emailpush">
+                                            E-mail</label>
                                     </span>
-                                    <img src="./img/catalog/cat-item-1.jpg" alt="product-card">
-                                </a>
-                                <div class="product-card__content">
-                                    <div class="product-card__brand">KEF</div>
-                                    <a class="product-card__title" href="/product_card.html">KEF R11</a>
-                                    <div class="product-card__desc">Напольная акустическая система</div>
-                                    <div class="product-card__actions">
-                                        <a class="product-card__compare" href="#">
-                                            <svg width="15" height="15" viewBox="0 0 15 15" fill="none"
-                                                 xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M0.542179 3.72219L3.67822 0.549388H3.22794C3.58274 0.908348 3.93757 1.26734 4.29397 1.62792C4.85563 2.19616 5.41569 2.76278 5.97732 3.33099C6.1062 3.46138 6.23508 3.59177 6.36395 3.72216C6.48169 3.84128 6.69807 3.85093 6.81424 3.72216C6.93039 3.59338 6.93993 3.39378 6.81424 3.26659C6.45944 2.90763 6.10461 2.54864 5.74821 2.18806C5.18654 1.61982 4.62649 1.0532 4.06485 0.484984C3.93598 0.354596 3.8071 0.224208 3.67822 0.0938229C3.5573 -0.0285148 3.35045 -0.0301249 3.22794 0.0938229C2.87313 0.452783 2.5183 0.811772 2.1619 1.17235C1.60024 1.74059 1.04018 2.30722 0.47855 2.87543C0.349673 3.00582 0.220795 3.13621 0.0919199 3.26659C-0.0258207 3.38571 -0.0353664 3.60462 0.0919199 3.72216C0.219206 3.84128 0.416493 3.85093 0.542208 3.72216L0.542179 3.72219Z"
-                                                      fill="black"></path>
-                                                <path d="M3.13569 0.322249V0.636143V1.49573V2.76097V4.31275V6.00458V7.71249V9.30451V10.6567V11.6241C3.13569 11.7771 3.13251 11.9316 3.13569 12.0845V12.1038C3.13569 12.2729 3.28207 12.4338 3.45392 12.4258C3.62577 12.4178 3.77215 12.2841 3.77215 12.1038V11.79V10.9304V9.66513V8.11334V6.42151V4.7136V3.12158V1.7694V0.801958C3.77215 0.649035 3.77533 0.49451 3.77215 0.341565V0.322249C3.77215 0.153227 3.62577 -0.007747 3.45392 0.000288752C3.2805 0.00833745 3.13569 0.141945 3.13569 0.322249Z"
-                                                      fill="black"></path>
-                                                <path d="M8.1857 11.7319C8.5405 12.0909 8.89533 12.4499 9.25173 12.8105C9.81339 13.3787 10.3735 13.9453 10.9351 14.5135C11.064 14.6439 11.1928 14.7743 11.3217 14.9047C11.4426 15.027 11.6495 15.0287 11.772 14.9047C12.1268 14.5457 12.4816 14.1868 12.838 13.8262C13.3997 13.2579 13.9598 12.6913 14.5214 12.1231C14.6503 11.9927 14.7791 11.8623 14.908 11.7319C15.0258 11.6128 15.0353 11.3939 14.908 11.2764C14.7807 11.1588 14.5834 11.1492 14.4577 11.2764C14.1029 11.6353 13.7481 11.9943 13.3917 12.3549C12.83 12.9231 12.27 13.4898 11.7083 14.058C11.5795 14.1884 11.4506 14.3188 11.3217 14.4491H11.772L10.706 13.3706C10.1459 12.804 9.58425 12.2374 9.02262 11.6691C8.89374 11.5387 8.76486 11.4083 8.63599 11.278C8.51824 11.1588 8.30187 11.1492 8.1857 11.278C8.06955 11.4051 8.06 11.6047 8.1857 11.7319V11.7319Z"
-                                                      fill="black"></path>
-                                                <path d="M11.8644 14.6776V14.3637V13.5041V12.2389V10.6871V8.99524V7.28733V5.69531V4.34313V3.37569C11.8644 3.22277 11.8676 3.06824 11.8644 2.9153V2.89598C11.8644 2.72696 11.7181 2.56598 11.5462 2.57402C11.3744 2.58205 11.228 2.71568 11.228 2.89598V3.20987V4.06946V5.3347V6.88648V8.57832V10.2862V11.8782V13.2304V14.1979C11.228 14.3508 11.2248 14.5053 11.228 14.6583V14.6776C11.228 14.8466 11.3744 15.0076 11.5462 14.9995C11.7196 14.9915 11.8644 14.8579 11.8644 14.6776Z"
-                                                      fill="black"></path>
-                                            </svg>
-                                            <span>Сравнить</span>
-                                        </a>
-                                        <a class="product-card__favorite" href="#">
-                                            <svg width="15" height="15" viewBox="0 0 16 15" fill="none"
-                                                 xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M12.7426 15L7.87494 12.4365L3.0073 15L3.93656 9.5732L0 5.72946L5.44118 4.93709L7.87506 0L10.3088 4.9374L15.75 5.72977L11.8119 9.5732L12.7426 15ZM0.962493 6.04252L4.41872 9.41683L3.60254 14.1794L7.87512 11.9305L12.1477 14.1794L11.3314 9.41527L14.7876 6.04096L10.0113 5.34515L7.87515 1.01357L5.73886 5.34671L0.962493 6.04252Z"
-                                                      fill="black"></path>
-                                            </svg>
-                                            <span>Добавить в избранное</span>
-                                        </a>
-                                    </div>
-                                    <div class="product-card__availability">
-                                        <div class="product-card__price">
-                                            от 599 990 ₽
-                                        </div>
-                                        <div class="product-card__stocks">
-                                            <div class="stocks-status in_stocks">В наличии</div>
-                                        </div>
-                                    </div>
-                                    <div class="product-card__btns">
-                                        <a href="#" class="btn btn--dark">в корзину</a>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="product-card">
-                                <a href="/product_card.html" class="product-card__img">
-                                    <span class="product-card__brand-logo">
-                                      <img src="./img/catalog/cat-item-brand-1.png" alt="product-card-brand">
-                                    </span>
-                                    <img src="./img/catalog/cat-item-1.jpg" alt="product-card">
-                                </a>
-                                <div class="product-card__content">
-                                    <div class="product-card__brand">KEF</div>
-                                    <a class="product-card__title" href="/product_card.html">KEF R11</a>
-                                    <div class="product-card__desc">Напольная акустическая система</div>
-                                    <div class="product-card__actions">
-                                        <a class="product-card__compare" href="#">
-                                            <svg width="15" height="15" viewBox="0 0 15 15" fill="none"
-                                                 xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M0.542179 3.72219L3.67822 0.549388H3.22794C3.58274 0.908348 3.93757 1.26734 4.29397 1.62792C4.85563 2.19616 5.41569 2.76278 5.97732 3.33099C6.1062 3.46138 6.23508 3.59177 6.36395 3.72216C6.48169 3.84128 6.69807 3.85093 6.81424 3.72216C6.93039 3.59338 6.93993 3.39378 6.81424 3.26659C6.45944 2.90763 6.10461 2.54864 5.74821 2.18806C5.18654 1.61982 4.62649 1.0532 4.06485 0.484984C3.93598 0.354596 3.8071 0.224208 3.67822 0.0938229C3.5573 -0.0285148 3.35045 -0.0301249 3.22794 0.0938229C2.87313 0.452783 2.5183 0.811772 2.1619 1.17235C1.60024 1.74059 1.04018 2.30722 0.47855 2.87543C0.349673 3.00582 0.220795 3.13621 0.0919199 3.26659C-0.0258207 3.38571 -0.0353664 3.60462 0.0919199 3.72216C0.219206 3.84128 0.416493 3.85093 0.542208 3.72216L0.542179 3.72219Z"
-                                                      fill="black"></path>
-                                                <path d="M3.13569 0.322249V0.636143V1.49573V2.76097V4.31275V6.00458V7.71249V9.30451V10.6567V11.6241C3.13569 11.7771 3.13251 11.9316 3.13569 12.0845V12.1038C3.13569 12.2729 3.28207 12.4338 3.45392 12.4258C3.62577 12.4178 3.77215 12.2841 3.77215 12.1038V11.79V10.9304V9.66513V8.11334V6.42151V4.7136V3.12158V1.7694V0.801958C3.77215 0.649035 3.77533 0.49451 3.77215 0.341565V0.322249C3.77215 0.153227 3.62577 -0.007747 3.45392 0.000288752C3.2805 0.00833745 3.13569 0.141945 3.13569 0.322249Z"
-                                                      fill="black"></path>
-                                                <path d="M8.1857 11.7319C8.5405 12.0909 8.89533 12.4499 9.25173 12.8105C9.81339 13.3787 10.3735 13.9453 10.9351 14.5135C11.064 14.6439 11.1928 14.7743 11.3217 14.9047C11.4426 15.027 11.6495 15.0287 11.772 14.9047C12.1268 14.5457 12.4816 14.1868 12.838 13.8262C13.3997 13.2579 13.9598 12.6913 14.5214 12.1231C14.6503 11.9927 14.7791 11.8623 14.908 11.7319C15.0258 11.6128 15.0353 11.3939 14.908 11.2764C14.7807 11.1588 14.5834 11.1492 14.4577 11.2764C14.1029 11.6353 13.7481 11.9943 13.3917 12.3549C12.83 12.9231 12.27 13.4898 11.7083 14.058C11.5795 14.1884 11.4506 14.3188 11.3217 14.4491H11.772L10.706 13.3706C10.1459 12.804 9.58425 12.2374 9.02262 11.6691C8.89374 11.5387 8.76486 11.4083 8.63599 11.278C8.51824 11.1588 8.30187 11.1492 8.1857 11.278C8.06955 11.4051 8.06 11.6047 8.1857 11.7319V11.7319Z"
-                                                      fill="black"></path>
-                                                <path d="M11.8644 14.6776V14.3637V13.5041V12.2389V10.6871V8.99524V7.28733V5.69531V4.34313V3.37569C11.8644 3.22277 11.8676 3.06824 11.8644 2.9153V2.89598C11.8644 2.72696 11.7181 2.56598 11.5462 2.57402C11.3744 2.58205 11.228 2.71568 11.228 2.89598V3.20987V4.06946V5.3347V6.88648V8.57832V10.2862V11.8782V13.2304V14.1979C11.228 14.3508 11.2248 14.5053 11.228 14.6583V14.6776C11.228 14.8466 11.3744 15.0076 11.5462 14.9995C11.7196 14.9915 11.8644 14.8579 11.8644 14.6776Z"
-                                                      fill="black"></path>
-                                            </svg>
-                                            <span>Сравнить</span>
-                                        </a>
-                                        <a class="product-card__favorite" href="#">
-                                            <svg width="15" height="15" viewBox="0 0 16 15" fill="none"
-                                                 xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M12.7426 15L7.87494 12.4365L3.0073 15L3.93656 9.5732L0 5.72946L5.44118 4.93709L7.87506 0L10.3088 4.9374L15.75 5.72977L11.8119 9.5732L12.7426 15ZM0.962493 6.04252L4.41872 9.41683L3.60254 14.1794L7.87512 11.9305L12.1477 14.1794L11.3314 9.41527L14.7876 6.04096L10.0113 5.34515L7.87515 1.01357L5.73886 5.34671L0.962493 6.04252Z"
-                                                      fill="black"></path>
-                                            </svg>
-                                            <span>Добавить в избранное</span>
-                                        </a>
-                                    </div>
-                                    <div class="product-card__availability">
-                                        <div class="product-card__price">
-                                            от 599 990 ₽
-                                        </div>
-                                        <div class="product-card__stocks">
-                                            <div class="stocks-status in_stocks">В наличии</div>
-                                        </div>
-                                    </div>
-                                    <div class="product-card__btns">
-                                        <a href="#" class="btn btn--dark">в корзину</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="product-card">
-                                <a href="/product_card.html" class="product-card__img">
-                                    <span class="product-card__brand-logo">
-                                      <img src="./img/catalog/cat-item-brand-1.png" alt="product-card-brand">
-                                    </span>
-                                    <img src="./img/catalog/cat-item-1.jpg" alt="product-card">
-                                </a>
-                                <div class="product-card__content">
-                                    <div class="product-card__brand">KEF</div>
-                                    <a class="product-card__title" href="/product_card.html">KEF R11</a>
-                                    <div class="product-card__desc">Напольная акустическая система</div>
-                                    <div class="product-card__actions">
-                                        <a class="product-card__compare" href="#">
-                                            <svg width="15" height="15" viewBox="0 0 15 15" fill="none"
-                                                 xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M0.542179 3.72219L3.67822 0.549388H3.22794C3.58274 0.908348 3.93757 1.26734 4.29397 1.62792C4.85563 2.19616 5.41569 2.76278 5.97732 3.33099C6.1062 3.46138 6.23508 3.59177 6.36395 3.72216C6.48169 3.84128 6.69807 3.85093 6.81424 3.72216C6.93039 3.59338 6.93993 3.39378 6.81424 3.26659C6.45944 2.90763 6.10461 2.54864 5.74821 2.18806C5.18654 1.61982 4.62649 1.0532 4.06485 0.484984C3.93598 0.354596 3.8071 0.224208 3.67822 0.0938229C3.5573 -0.0285148 3.35045 -0.0301249 3.22794 0.0938229C2.87313 0.452783 2.5183 0.811772 2.1619 1.17235C1.60024 1.74059 1.04018 2.30722 0.47855 2.87543C0.349673 3.00582 0.220795 3.13621 0.0919199 3.26659C-0.0258207 3.38571 -0.0353664 3.60462 0.0919199 3.72216C0.219206 3.84128 0.416493 3.85093 0.542208 3.72216L0.542179 3.72219Z"
-                                                      fill="black"></path>
-                                                <path d="M3.13569 0.322249V0.636143V1.49573V2.76097V4.31275V6.00458V7.71249V9.30451V10.6567V11.6241C3.13569 11.7771 3.13251 11.9316 3.13569 12.0845V12.1038C3.13569 12.2729 3.28207 12.4338 3.45392 12.4258C3.62577 12.4178 3.77215 12.2841 3.77215 12.1038V11.79V10.9304V9.66513V8.11334V6.42151V4.7136V3.12158V1.7694V0.801958C3.77215 0.649035 3.77533 0.49451 3.77215 0.341565V0.322249C3.77215 0.153227 3.62577 -0.007747 3.45392 0.000288752C3.2805 0.00833745 3.13569 0.141945 3.13569 0.322249Z"
-                                                      fill="black"></path>
-                                                <path d="M8.1857 11.7319C8.5405 12.0909 8.89533 12.4499 9.25173 12.8105C9.81339 13.3787 10.3735 13.9453 10.9351 14.5135C11.064 14.6439 11.1928 14.7743 11.3217 14.9047C11.4426 15.027 11.6495 15.0287 11.772 14.9047C12.1268 14.5457 12.4816 14.1868 12.838 13.8262C13.3997 13.2579 13.9598 12.6913 14.5214 12.1231C14.6503 11.9927 14.7791 11.8623 14.908 11.7319C15.0258 11.6128 15.0353 11.3939 14.908 11.2764C14.7807 11.1588 14.5834 11.1492 14.4577 11.2764C14.1029 11.6353 13.7481 11.9943 13.3917 12.3549C12.83 12.9231 12.27 13.4898 11.7083 14.058C11.5795 14.1884 11.4506 14.3188 11.3217 14.4491H11.772L10.706 13.3706C10.1459 12.804 9.58425 12.2374 9.02262 11.6691C8.89374 11.5387 8.76486 11.4083 8.63599 11.278C8.51824 11.1588 8.30187 11.1492 8.1857 11.278C8.06955 11.4051 8.06 11.6047 8.1857 11.7319V11.7319Z"
-                                                      fill="black"></path>
-                                                <path d="M11.8644 14.6776V14.3637V13.5041V12.2389V10.6871V8.99524V7.28733V5.69531V4.34313V3.37569C11.8644 3.22277 11.8676 3.06824 11.8644 2.9153V2.89598C11.8644 2.72696 11.7181 2.56598 11.5462 2.57402C11.3744 2.58205 11.228 2.71568 11.228 2.89598V3.20987V4.06946V5.3347V6.88648V8.57832V10.2862V11.8782V13.2304V14.1979C11.228 14.3508 11.2248 14.5053 11.228 14.6583V14.6776C11.228 14.8466 11.3744 15.0076 11.5462 14.9995C11.7196 14.9915 11.8644 14.8579 11.8644 14.6776Z"
-                                                      fill="black"></path>
-                                            </svg>
-                                            <span>Сравнить</span>
-                                        </a>
-                                        <a class="product-card__favorite" href="#">
-                                            <svg width="15" height="15" viewBox="0 0 16 15" fill="none"
-                                                 xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M12.7426 15L7.87494 12.4365L3.0073 15L3.93656 9.5732L0 5.72946L5.44118 4.93709L7.87506 0L10.3088 4.9374L15.75 5.72977L11.8119 9.5732L12.7426 15ZM0.962493 6.04252L4.41872 9.41683L3.60254 14.1794L7.87512 11.9305L12.1477 14.1794L11.3314 9.41527L14.7876 6.04096L10.0113 5.34515L7.87515 1.01357L5.73886 5.34671L0.962493 6.04252Z"
-                                                      fill="black"></path>
-                                            </svg>
-                                            <span>Добавить в избранное</span>
-                                        </a>
-                                    </div>
-                                    <div class="product-card__availability">
-                                        <div class="product-card__price">
-                                            от 599 990 ₽
-                                        </div>
-                                        <div class="product-card__stocks">
-                                            <div class="stocks-status in_stocks">В наличии</div>
-                                        </div>
-                                    </div>
-                                    <div class="product-card__btns">
-                                        <a href="#" class="btn btn--dark">в корзину</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="product-card">
-                                <a href="/product_card.html" class="product-card__img">
-                                    <span class="product-card__brand-logo">
-                                      <img src="./img/catalog/cat-item-brand-1.png" alt="product-card-brand">
-                                    </span>
-                                    <img src="./img/catalog/cat-item-1.jpg" alt="product-card">
-                                </a>
-                                <div class="product-card__content">
-                                    <div class="product-card__brand">KEF</div>
-                                    <a class="product-card__title" href="/product_card.html">KEF R11</a>
-                                    <div class="product-card__desc">Напольная акустическая система</div>
-                                    <div class="product-card__actions">
-                                        <a class="product-card__compare" href="#">
-                                            <svg width="15" height="15" viewBox="0 0 15 15" fill="none"
-                                                 xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M0.542179 3.72219L3.67822 0.549388H3.22794C3.58274 0.908348 3.93757 1.26734 4.29397 1.62792C4.85563 2.19616 5.41569 2.76278 5.97732 3.33099C6.1062 3.46138 6.23508 3.59177 6.36395 3.72216C6.48169 3.84128 6.69807 3.85093 6.81424 3.72216C6.93039 3.59338 6.93993 3.39378 6.81424 3.26659C6.45944 2.90763 6.10461 2.54864 5.74821 2.18806C5.18654 1.61982 4.62649 1.0532 4.06485 0.484984C3.93598 0.354596 3.8071 0.224208 3.67822 0.0938229C3.5573 -0.0285148 3.35045 -0.0301249 3.22794 0.0938229C2.87313 0.452783 2.5183 0.811772 2.1619 1.17235C1.60024 1.74059 1.04018 2.30722 0.47855 2.87543C0.349673 3.00582 0.220795 3.13621 0.0919199 3.26659C-0.0258207 3.38571 -0.0353664 3.60462 0.0919199 3.72216C0.219206 3.84128 0.416493 3.85093 0.542208 3.72216L0.542179 3.72219Z"
-                                                      fill="black"></path>
-                                                <path d="M3.13569 0.322249V0.636143V1.49573V2.76097V4.31275V6.00458V7.71249V9.30451V10.6567V11.6241C3.13569 11.7771 3.13251 11.9316 3.13569 12.0845V12.1038C3.13569 12.2729 3.28207 12.4338 3.45392 12.4258C3.62577 12.4178 3.77215 12.2841 3.77215 12.1038V11.79V10.9304V9.66513V8.11334V6.42151V4.7136V3.12158V1.7694V0.801958C3.77215 0.649035 3.77533 0.49451 3.77215 0.341565V0.322249C3.77215 0.153227 3.62577 -0.007747 3.45392 0.000288752C3.2805 0.00833745 3.13569 0.141945 3.13569 0.322249Z"
-                                                      fill="black"></path>
-                                                <path d="M8.1857 11.7319C8.5405 12.0909 8.89533 12.4499 9.25173 12.8105C9.81339 13.3787 10.3735 13.9453 10.9351 14.5135C11.064 14.6439 11.1928 14.7743 11.3217 14.9047C11.4426 15.027 11.6495 15.0287 11.772 14.9047C12.1268 14.5457 12.4816 14.1868 12.838 13.8262C13.3997 13.2579 13.9598 12.6913 14.5214 12.1231C14.6503 11.9927 14.7791 11.8623 14.908 11.7319C15.0258 11.6128 15.0353 11.3939 14.908 11.2764C14.7807 11.1588 14.5834 11.1492 14.4577 11.2764C14.1029 11.6353 13.7481 11.9943 13.3917 12.3549C12.83 12.9231 12.27 13.4898 11.7083 14.058C11.5795 14.1884 11.4506 14.3188 11.3217 14.4491H11.772L10.706 13.3706C10.1459 12.804 9.58425 12.2374 9.02262 11.6691C8.89374 11.5387 8.76486 11.4083 8.63599 11.278C8.51824 11.1588 8.30187 11.1492 8.1857 11.278C8.06955 11.4051 8.06 11.6047 8.1857 11.7319V11.7319Z"
-                                                      fill="black"></path>
-                                                <path d="M11.8644 14.6776V14.3637V13.5041V12.2389V10.6871V8.99524V7.28733V5.69531V4.34313V3.37569C11.8644 3.22277 11.8676 3.06824 11.8644 2.9153V2.89598C11.8644 2.72696 11.7181 2.56598 11.5462 2.57402C11.3744 2.58205 11.228 2.71568 11.228 2.89598V3.20987V4.06946V5.3347V6.88648V8.57832V10.2862V11.8782V13.2304V14.1979C11.228 14.3508 11.2248 14.5053 11.228 14.6583V14.6776C11.228 14.8466 11.3744 15.0076 11.5462 14.9995C11.7196 14.9915 11.8644 14.8579 11.8644 14.6776Z"
-                                                      fill="black"></path>
-                                            </svg>
-                                            <span>Сравнить</span>
-                                        </a>
-                                        <a class="product-card__favorite" href="#">
-                                            <svg width="15" height="15" viewBox="0 0 16 15" fill="none"
-                                                 xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M12.7426 15L7.87494 12.4365L3.0073 15L3.93656 9.5732L0 5.72946L5.44118 4.93709L7.87506 0L10.3088 4.9374L15.75 5.72977L11.8119 9.5732L12.7426 15ZM0.962493 6.04252L4.41872 9.41683L3.60254 14.1794L7.87512 11.9305L12.1477 14.1794L11.3314 9.41527L14.7876 6.04096L10.0113 5.34515L7.87515 1.01357L5.73886 5.34671L0.962493 6.04252Z"
-                                                      fill="black"></path>
-                                            </svg>
-                                            <span>Добавить в избранное</span>
-                                        </a>
-                                    </div>
-                                    <div class="product-card__availability">
-                                        <div class="product-card__price">
-                                            от 599 990 ₽
-                                        </div>
-                                        <div class="product-card__stocks">
-                                            <div class="stocks-status in_stocks">В наличии</div>
-                                        </div>
-                                    </div>
-                                    <div class="product-card__btns">
-                                        <a href="#" class="btn btn--dark">в корзину</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="catalog__pagination cinema-pagination">
-                            <div class="cinema-pagination__more">
-                                <span class="btn">Показать еще</span>
-                            </div>
-                            <div class="cinema-pagination__pages">
-                                <a href="#" class="cinema-pagination__prev">
-                                    <svg width="21" height="16" viewBox="0 0 21 16" fill="none"
-                                         xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M12.2045 2.7955C11.7652 2.35616 11.7652 1.64384 12.2045 1.2045C12.6438 0.765165 13.3562 0.765165 13.7955 1.2045L19.7955 7.2045C20.2348 7.64384 20.2348 8.35616 19.7955 8.7955L13.7955 14.7955C13.3562 15.2348 12.6438 15.2348 12.2045 14.7955C11.7652 14.3562 11.7652 13.6438 12.2045 13.2045L16.284 9.125H1.75C1.12868 9.125 0.625 8.62132 0.625 8C0.625 7.37868 1.12868 6.875 1.75 6.875H16.284L12.2045 2.7955Z"
-                                              fill="black"/>
-                                    </svg>
-                                </a>
-                                <div class="cinema-pagination__list">
-                                    <span class="cinema-pagination__link current">1</span>
-                                    <a href="#" class="cinema-pagination__link">2</a>
-                                    <a href="#" class="cinema-pagination__link">3</a>
-                                    <a href="#" class="cinema-pagination__link">...</a>
-                                    <a href="#" class="cinema-pagination__link">12</a>
-                                </div>
-                                <a href="#" class="cinema-pagination__next">
-                                    <svg width="21" height="16" viewBox="0 0 21 16" fill="none"
-                                         xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M12.2045 2.7955C11.7652 2.35616 11.7652 1.64384 12.2045 1.2045C12.6438 0.765165 13.3562 0.765165 13.7955 1.2045L19.7955 7.2045C20.2348 7.64384 20.2348 8.35616 19.7955 8.7955L13.7955 14.7955C13.3562 15.2348 12.6438 15.2348 12.2045 14.7955C11.7652 14.3562 11.7652 13.6438 12.2045 13.2045L16.284 9.125H1.75C1.12868 9.125 0.625 8.62132 0.625 8C0.625 7.37868 1.12868 6.875 1.75 6.875H16.284L12.2045 2.7955Z"
-                                              fill="black"/>
-                                    </svg>
-                                </a>
-                            </div>
+                            </form>
                         </div>
                     </div>
                 </div>
-                <!--catalog__list-wrapper-->
             </div>
         </div>
     </section>
-    <section class="callback-form">
-        <div class="callback-form__wrapper">
-            <div class="callback-form__picture">
-                <img src="./img/cbform1.png" alt="">
-            </div>
-            <div class="callback-form__info">
-                <div class="callback-form__title h2">
-                    Нужна консультация? <br>Давайте поговорим
-                </div>
-                <div class="callback-form__text">
-                    Заполните форму с вашей контактной информацией и мы обсудим все интересующие вас вопросы, наши
-                    эксперты детально проконсультируют вас по всему, что вас интересует.
-                </div>
-                <div class="callback-form__form" data-replace-wrapper>
-                    <form action="POST" data-form-callback>
-                        <div class="double-fields">
-                            <div class="form-input form-input--required">
-                                <input type="text" placeholder="Ваше имя">
-                            </div>
-                            <div class="form-input form-input--inputmask"
-                                 data-inputmask="7 (999) 999 99 99"
-                            >
-                                <input type="text" placeholder="Телефон">
-                            </div>
-                        </div>
-                        <div class="callback-form__submit-box">
-                            <div class="form-input form-input--agree">
-                                <input type="checkbox" name="agree" id="agree1">
-                                <label for="agree1">
-                                    Нажимая кнопку отправить, даю согласие на обработку своих персональных
-                                    данных</label>
-                            </div>
-                            <div class="callback-form__submit">
-                                <button type="submit" class="btn btn--border">Отправить</button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-                <template id="cb-success">
-                    <div class="result-modal">
-                        <div class="result-modal__icon">
-                            <svg width="64" height="64" viewBox="0 0 64 64" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                <path d="M31.9987 10.6666C20.2166 10.6666 10.6654 20.2178 10.6654 31.9999C10.6654 43.782 20.2166 53.3333 31.9987 53.3333C43.7808 53.3333 53.332 43.782 53.332 31.9999C53.332 20.2178 43.7808 10.6666 31.9987 10.6666ZM5.33203 31.9999C5.33203 17.2723 17.2711 5.33325 31.9987 5.33325C46.7263 5.33325 58.6654 17.2723 58.6654 31.9999C58.6654 46.7275 46.7263 58.6666 31.9987 58.6666C17.2711 58.6666 5.33203 46.7275 5.33203 31.9999ZM44.437 23.3402C45.5378 24.3186 45.6369 26.0041 44.6585 27.1049L30.4362 43.1049C29.9302 43.6742 29.2048 43.9999 28.4431 43.9999C27.6814 43.9999 26.9561 43.6742 26.4501 43.1049L19.3389 35.1049C18.3605 34.0041 18.4596 32.3186 19.5604 31.3402C20.6611 30.3617 22.3467 30.4609 23.3251 31.5616L28.4431 37.3194L40.6723 23.5616C41.6507 22.4609 43.3363 22.3617 44.437 23.3402Z"
-                                      fill="#C1C1C1"></path>
-                            </svg>
-                        </div>
-                        <div class="result-modal__title">Отзыв отправлен!</div>
-                        <div class="result-modal__desc">Спасибо за уделенное время!</div>
+    <section class="recommendations">
+        <div class="container">
+            <div class="recommendations__wrapper">
+                <div class="section-header section-header--center">
+                    <div class="section-header__title-block">
+                        <div class="section-header__subtitle">Hi end avenue</div>
+                        <h1 class="section-header__title">Персональные рекомендации</h1>
                     </div>
-                </template>
+                </div>
+                <div class="recommendations__items swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="product-card">
+                                <a href="/product_card.html" class="product-card__img">
+                                    <span class="product-card__brand-logo">
+                                      <img src="./img/catalog/cat-item-brand-1.png" alt="product-card-brand">
+                                    </span>
+                                    <img src="./img/catalog/cat-item-1.jpg" alt="product-card">
+                                </a>
+                                <div class="product-card__content">
+                                    <div class="product-card__brand">KEF</div>
+                                    <a class="product-card__title" href="/product_card.html">KEF R11</a>
+                                    <div class="product-card__desc">Напольная акустическая система</div>
+                                    <div class="product-card__actions">
+                                        <a class="product-card__compare" href="#">
+                                            <svg width="15" height="15" viewBox="0 0 15 15" fill="none"
+                                                 xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M0.542179 3.72219L3.67822 0.549388H3.22794C3.58274 0.908348 3.93757 1.26734 4.29397 1.62792C4.85563 2.19616 5.41569 2.76278 5.97732 3.33099C6.1062 3.46138 6.23508 3.59177 6.36395 3.72216C6.48169 3.84128 6.69807 3.85093 6.81424 3.72216C6.93039 3.59338 6.93993 3.39378 6.81424 3.26659C6.45944 2.90763 6.10461 2.54864 5.74821 2.18806C5.18654 1.61982 4.62649 1.0532 4.06485 0.484984C3.93598 0.354596 3.8071 0.224208 3.67822 0.0938229C3.5573 -0.0285148 3.35045 -0.0301249 3.22794 0.0938229C2.87313 0.452783 2.5183 0.811772 2.1619 1.17235C1.60024 1.74059 1.04018 2.30722 0.47855 2.87543C0.349673 3.00582 0.220795 3.13621 0.0919199 3.26659C-0.0258207 3.38571 -0.0353664 3.60462 0.0919199 3.72216C0.219206 3.84128 0.416493 3.85093 0.542208 3.72216L0.542179 3.72219Z"
+                                                      fill="black"></path>
+                                                <path d="M3.13569 0.322249V0.636143V1.49573V2.76097V4.31275V6.00458V7.71249V9.30451V10.6567V11.6241C3.13569 11.7771 3.13251 11.9316 3.13569 12.0845V12.1038C3.13569 12.2729 3.28207 12.4338 3.45392 12.4258C3.62577 12.4178 3.77215 12.2841 3.77215 12.1038V11.79V10.9304V9.66513V8.11334V6.42151V4.7136V3.12158V1.7694V0.801958C3.77215 0.649035 3.77533 0.49451 3.77215 0.341565V0.322249C3.77215 0.153227 3.62577 -0.007747 3.45392 0.000288752C3.2805 0.00833745 3.13569 0.141945 3.13569 0.322249Z"
+                                                      fill="black"></path>
+                                                <path d="M8.1857 11.7319C8.5405 12.0909 8.89533 12.4499 9.25173 12.8105C9.81339 13.3787 10.3735 13.9453 10.9351 14.5135C11.064 14.6439 11.1928 14.7743 11.3217 14.9047C11.4426 15.027 11.6495 15.0287 11.772 14.9047C12.1268 14.5457 12.4816 14.1868 12.838 13.8262C13.3997 13.2579 13.9598 12.6913 14.5214 12.1231C14.6503 11.9927 14.7791 11.8623 14.908 11.7319C15.0258 11.6128 15.0353 11.3939 14.908 11.2764C14.7807 11.1588 14.5834 11.1492 14.4577 11.2764C14.1029 11.6353 13.7481 11.9943 13.3917 12.3549C12.83 12.9231 12.27 13.4898 11.7083 14.058C11.5795 14.1884 11.4506 14.3188 11.3217 14.4491H11.772L10.706 13.3706C10.1459 12.804 9.58425 12.2374 9.02262 11.6691C8.89374 11.5387 8.76486 11.4083 8.63599 11.278C8.51824 11.1588 8.30187 11.1492 8.1857 11.278C8.06955 11.4051 8.06 11.6047 8.1857 11.7319V11.7319Z"
+                                                      fill="black"></path>
+                                                <path d="M11.8644 14.6776V14.3637V13.5041V12.2389V10.6871V8.99524V7.28733V5.69531V4.34313V3.37569C11.8644 3.22277 11.8676 3.06824 11.8644 2.9153V2.89598C11.8644 2.72696 11.7181 2.56598 11.5462 2.57402C11.3744 2.58205 11.228 2.71568 11.228 2.89598V3.20987V4.06946V5.3347V6.88648V8.57832V10.2862V11.8782V13.2304V14.1979C11.228 14.3508 11.2248 14.5053 11.228 14.6583V14.6776C11.228 14.8466 11.3744 15.0076 11.5462 14.9995C11.7196 14.9915 11.8644 14.8579 11.8644 14.6776Z"
+                                                      fill="black"></path>
+                                            </svg>
+                                            <span>Сравнить</span>
+                                        </a>
+                                        <a class="product-card__favorite" href="#">
+                                            <svg width="15" height="15" viewBox="0 0 16 15" fill="none"
+                                                 xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M12.7426 15L7.87494 12.4365L3.0073 15L3.93656 9.5732L0 5.72946L5.44118 4.93709L7.87506 0L10.3088 4.9374L15.75 5.72977L11.8119 9.5732L12.7426 15ZM0.962493 6.04252L4.41872 9.41683L3.60254 14.1794L7.87512 11.9305L12.1477 14.1794L11.3314 9.41527L14.7876 6.04096L10.0113 5.34515L7.87515 1.01357L5.73886 5.34671L0.962493 6.04252Z"
+                                                      fill="black"></path>
+                                            </svg>
+                                            <span>Добавить в избранное</span>
+                                        </a>
+                                    </div>
+                                    <div class="product-card__availability">
+                                        <div class="product-card__price">
+                                            от 599 990 ₽
+                                        </div>
+                                        <div class="product-card__stocks">
+                                            <div class="stocks-status in_stocks">В наличии</div>
+                                        </div>
+                                    </div>
+                                    <div class="product-card__btns">
+                                        <a href="#" class="btn btn--dark">в корзину</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product-card">
+                                <a href="/product_card.html" class="product-card__img">
+                                    <span class="product-card__brand-logo">
+                                      <img src="./img/catalog/cat-item-brand-1.png" alt="product-card-brand">
+                                    </span>
+                                    <img src="./img/catalog/cat-item-1.jpg" alt="product-card">
+                                </a>
+                                <div class="product-card__content">
+                                    <div class="product-card__brand">KEF</div>
+                                    <a class="product-card__title" href="/product_card.html">KEF R11</a>
+                                    <div class="product-card__desc">Напольная акустическая система</div>
+                                    <div class="product-card__actions">
+                                        <a class="product-card__compare" href="#">
+                                            <svg width="15" height="15" viewBox="0 0 15 15" fill="none"
+                                                 xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M0.542179 3.72219L3.67822 0.549388H3.22794C3.58274 0.908348 3.93757 1.26734 4.29397 1.62792C4.85563 2.19616 5.41569 2.76278 5.97732 3.33099C6.1062 3.46138 6.23508 3.59177 6.36395 3.72216C6.48169 3.84128 6.69807 3.85093 6.81424 3.72216C6.93039 3.59338 6.93993 3.39378 6.81424 3.26659C6.45944 2.90763 6.10461 2.54864 5.74821 2.18806C5.18654 1.61982 4.62649 1.0532 4.06485 0.484984C3.93598 0.354596 3.8071 0.224208 3.67822 0.0938229C3.5573 -0.0285148 3.35045 -0.0301249 3.22794 0.0938229C2.87313 0.452783 2.5183 0.811772 2.1619 1.17235C1.60024 1.74059 1.04018 2.30722 0.47855 2.87543C0.349673 3.00582 0.220795 3.13621 0.0919199 3.26659C-0.0258207 3.38571 -0.0353664 3.60462 0.0919199 3.72216C0.219206 3.84128 0.416493 3.85093 0.542208 3.72216L0.542179 3.72219Z"
+                                                      fill="black"></path>
+                                                <path d="M3.13569 0.322249V0.636143V1.49573V2.76097V4.31275V6.00458V7.71249V9.30451V10.6567V11.6241C3.13569 11.7771 3.13251 11.9316 3.13569 12.0845V12.1038C3.13569 12.2729 3.28207 12.4338 3.45392 12.4258C3.62577 12.4178 3.77215 12.2841 3.77215 12.1038V11.79V10.9304V9.66513V8.11334V6.42151V4.7136V3.12158V1.7694V0.801958C3.77215 0.649035 3.77533 0.49451 3.77215 0.341565V0.322249C3.77215 0.153227 3.62577 -0.007747 3.45392 0.000288752C3.2805 0.00833745 3.13569 0.141945 3.13569 0.322249Z"
+                                                      fill="black"></path>
+                                                <path d="M8.1857 11.7319C8.5405 12.0909 8.89533 12.4499 9.25173 12.8105C9.81339 13.3787 10.3735 13.9453 10.9351 14.5135C11.064 14.6439 11.1928 14.7743 11.3217 14.9047C11.4426 15.027 11.6495 15.0287 11.772 14.9047C12.1268 14.5457 12.4816 14.1868 12.838 13.8262C13.3997 13.2579 13.9598 12.6913 14.5214 12.1231C14.6503 11.9927 14.7791 11.8623 14.908 11.7319C15.0258 11.6128 15.0353 11.3939 14.908 11.2764C14.7807 11.1588 14.5834 11.1492 14.4577 11.2764C14.1029 11.6353 13.7481 11.9943 13.3917 12.3549C12.83 12.9231 12.27 13.4898 11.7083 14.058C11.5795 14.1884 11.4506 14.3188 11.3217 14.4491H11.772L10.706 13.3706C10.1459 12.804 9.58425 12.2374 9.02262 11.6691C8.89374 11.5387 8.76486 11.4083 8.63599 11.278C8.51824 11.1588 8.30187 11.1492 8.1857 11.278C8.06955 11.4051 8.06 11.6047 8.1857 11.7319V11.7319Z"
+                                                      fill="black"></path>
+                                                <path d="M11.8644 14.6776V14.3637V13.5041V12.2389V10.6871V8.99524V7.28733V5.69531V4.34313V3.37569C11.8644 3.22277 11.8676 3.06824 11.8644 2.9153V2.89598C11.8644 2.72696 11.7181 2.56598 11.5462 2.57402C11.3744 2.58205 11.228 2.71568 11.228 2.89598V3.20987V4.06946V5.3347V6.88648V8.57832V10.2862V11.8782V13.2304V14.1979C11.228 14.3508 11.2248 14.5053 11.228 14.6583V14.6776C11.228 14.8466 11.3744 15.0076 11.5462 14.9995C11.7196 14.9915 11.8644 14.8579 11.8644 14.6776Z"
+                                                      fill="black"></path>
+                                            </svg>
+                                            <span>Сравнить</span>
+                                        </a>
+                                        <a class="product-card__favorite" href="#">
+                                            <svg width="15" height="15" viewBox="0 0 16 15" fill="none"
+                                                 xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M12.7426 15L7.87494 12.4365L3.0073 15L3.93656 9.5732L0 5.72946L5.44118 4.93709L7.87506 0L10.3088 4.9374L15.75 5.72977L11.8119 9.5732L12.7426 15ZM0.962493 6.04252L4.41872 9.41683L3.60254 14.1794L7.87512 11.9305L12.1477 14.1794L11.3314 9.41527L14.7876 6.04096L10.0113 5.34515L7.87515 1.01357L5.73886 5.34671L0.962493 6.04252Z"
+                                                      fill="black"></path>
+                                            </svg>
+                                            <span>Добавить в избранное</span>
+                                        </a>
+                                    </div>
+                                    <div class="product-card__availability">
+                                        <div class="product-card__price">
+                                            от 599 990 ₽
+                                        </div>
+                                        <div class="product-card__stocks">
+                                            <div class="stocks-status in_stocks">В наличии</div>
+                                        </div>
+                                    </div>
+                                    <div class="product-card__btns">
+                                        <a href="#" class="btn btn--dark">в корзину</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product-card">
+                                <a href="/product_card.html" class="product-card__img">
+                                    <span class="product-card__brand-logo">
+                                      <img src="./img/catalog/cat-item-brand-1.png" alt="product-card-brand">
+                                    </span>
+                                    <img src="./img/catalog/cat-item-1.jpg" alt="product-card">
+                                </a>
+                                <div class="product-card__content">
+                                    <div class="product-card__brand">KEF</div>
+                                    <a class="product-card__title" href="/product_card.html">KEF R11</a>
+                                    <div class="product-card__desc">Напольная акустическая система</div>
+                                    <div class="product-card__actions">
+                                        <a class="product-card__compare" href="#">
+                                            <svg width="15" height="15" viewBox="0 0 15 15" fill="none"
+                                                 xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M0.542179 3.72219L3.67822 0.549388H3.22794C3.58274 0.908348 3.93757 1.26734 4.29397 1.62792C4.85563 2.19616 5.41569 2.76278 5.97732 3.33099C6.1062 3.46138 6.23508 3.59177 6.36395 3.72216C6.48169 3.84128 6.69807 3.85093 6.81424 3.72216C6.93039 3.59338 6.93993 3.39378 6.81424 3.26659C6.45944 2.90763 6.10461 2.54864 5.74821 2.18806C5.18654 1.61982 4.62649 1.0532 4.06485 0.484984C3.93598 0.354596 3.8071 0.224208 3.67822 0.0938229C3.5573 -0.0285148 3.35045 -0.0301249 3.22794 0.0938229C2.87313 0.452783 2.5183 0.811772 2.1619 1.17235C1.60024 1.74059 1.04018 2.30722 0.47855 2.87543C0.349673 3.00582 0.220795 3.13621 0.0919199 3.26659C-0.0258207 3.38571 -0.0353664 3.60462 0.0919199 3.72216C0.219206 3.84128 0.416493 3.85093 0.542208 3.72216L0.542179 3.72219Z"
+                                                      fill="black"></path>
+                                                <path d="M3.13569 0.322249V0.636143V1.49573V2.76097V4.31275V6.00458V7.71249V9.30451V10.6567V11.6241C3.13569 11.7771 3.13251 11.9316 3.13569 12.0845V12.1038C3.13569 12.2729 3.28207 12.4338 3.45392 12.4258C3.62577 12.4178 3.77215 12.2841 3.77215 12.1038V11.79V10.9304V9.66513V8.11334V6.42151V4.7136V3.12158V1.7694V0.801958C3.77215 0.649035 3.77533 0.49451 3.77215 0.341565V0.322249C3.77215 0.153227 3.62577 -0.007747 3.45392 0.000288752C3.2805 0.00833745 3.13569 0.141945 3.13569 0.322249Z"
+                                                      fill="black"></path>
+                                                <path d="M8.1857 11.7319C8.5405 12.0909 8.89533 12.4499 9.25173 12.8105C9.81339 13.3787 10.3735 13.9453 10.9351 14.5135C11.064 14.6439 11.1928 14.7743 11.3217 14.9047C11.4426 15.027 11.6495 15.0287 11.772 14.9047C12.1268 14.5457 12.4816 14.1868 12.838 13.8262C13.3997 13.2579 13.9598 12.6913 14.5214 12.1231C14.6503 11.9927 14.7791 11.8623 14.908 11.7319C15.0258 11.6128 15.0353 11.3939 14.908 11.2764C14.7807 11.1588 14.5834 11.1492 14.4577 11.2764C14.1029 11.6353 13.7481 11.9943 13.3917 12.3549C12.83 12.9231 12.27 13.4898 11.7083 14.058C11.5795 14.1884 11.4506 14.3188 11.3217 14.4491H11.772L10.706 13.3706C10.1459 12.804 9.58425 12.2374 9.02262 11.6691C8.89374 11.5387 8.76486 11.4083 8.63599 11.278C8.51824 11.1588 8.30187 11.1492 8.1857 11.278C8.06955 11.4051 8.06 11.6047 8.1857 11.7319V11.7319Z"
+                                                      fill="black"></path>
+                                                <path d="M11.8644 14.6776V14.3637V13.5041V12.2389V10.6871V8.99524V7.28733V5.69531V4.34313V3.37569C11.8644 3.22277 11.8676 3.06824 11.8644 2.9153V2.89598C11.8644 2.72696 11.7181 2.56598 11.5462 2.57402C11.3744 2.58205 11.228 2.71568 11.228 2.89598V3.20987V4.06946V5.3347V6.88648V8.57832V10.2862V11.8782V13.2304V14.1979C11.228 14.3508 11.2248 14.5053 11.228 14.6583V14.6776C11.228 14.8466 11.3744 15.0076 11.5462 14.9995C11.7196 14.9915 11.8644 14.8579 11.8644 14.6776Z"
+                                                      fill="black"></path>
+                                            </svg>
+                                            <span>Сравнить</span>
+                                        </a>
+                                        <a class="product-card__favorite" href="#">
+                                            <svg width="15" height="15" viewBox="0 0 16 15" fill="none"
+                                                 xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M12.7426 15L7.87494 12.4365L3.0073 15L3.93656 9.5732L0 5.72946L5.44118 4.93709L7.87506 0L10.3088 4.9374L15.75 5.72977L11.8119 9.5732L12.7426 15ZM0.962493 6.04252L4.41872 9.41683L3.60254 14.1794L7.87512 11.9305L12.1477 14.1794L11.3314 9.41527L14.7876 6.04096L10.0113 5.34515L7.87515 1.01357L5.73886 5.34671L0.962493 6.04252Z"
+                                                      fill="black"></path>
+                                            </svg>
+                                            <span>Добавить в избранное</span>
+                                        </a>
+                                    </div>
+                                    <div class="product-card__availability">
+                                        <div class="product-card__price">
+                                            от 599 990 ₽
+                                        </div>
+                                        <div class="product-card__stocks">
+                                            <div class="stocks-status in_stocks">В наличии</div>
+                                        </div>
+                                    </div>
+                                    <div class="product-card__btns">
+                                        <a href="#" class="btn btn--dark">в корзину</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product-card">
+                                <a href="/product_card.html" class="product-card__img">
+                                    <span class="product-card__brand-logo">
+                                      <img src="./img/catalog/cat-item-brand-1.png" alt="product-card-brand">
+                                    </span>
+                                    <img src="./img/catalog/cat-item-1.jpg" alt="product-card">
+                                </a>
+                                <div class="product-card__content">
+                                    <div class="product-card__brand">KEF</div>
+                                    <a class="product-card__title" href="/product_card.html">KEF R11</a>
+                                    <div class="product-card__desc">Напольная акустическая система</div>
+                                    <div class="product-card__actions">
+                                        <a class="product-card__compare" href="#">
+                                            <svg width="15" height="15" viewBox="0 0 15 15" fill="none"
+                                                 xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M0.542179 3.72219L3.67822 0.549388H3.22794C3.58274 0.908348 3.93757 1.26734 4.29397 1.62792C4.85563 2.19616 5.41569 2.76278 5.97732 3.33099C6.1062 3.46138 6.23508 3.59177 6.36395 3.72216C6.48169 3.84128 6.69807 3.85093 6.81424 3.72216C6.93039 3.59338 6.93993 3.39378 6.81424 3.26659C6.45944 2.90763 6.10461 2.54864 5.74821 2.18806C5.18654 1.61982 4.62649 1.0532 4.06485 0.484984C3.93598 0.354596 3.8071 0.224208 3.67822 0.0938229C3.5573 -0.0285148 3.35045 -0.0301249 3.22794 0.0938229C2.87313 0.452783 2.5183 0.811772 2.1619 1.17235C1.60024 1.74059 1.04018 2.30722 0.47855 2.87543C0.349673 3.00582 0.220795 3.13621 0.0919199 3.26659C-0.0258207 3.38571 -0.0353664 3.60462 0.0919199 3.72216C0.219206 3.84128 0.416493 3.85093 0.542208 3.72216L0.542179 3.72219Z"
+                                                      fill="black"></path>
+                                                <path d="M3.13569 0.322249V0.636143V1.49573V2.76097V4.31275V6.00458V7.71249V9.30451V10.6567V11.6241C3.13569 11.7771 3.13251 11.9316 3.13569 12.0845V12.1038C3.13569 12.2729 3.28207 12.4338 3.45392 12.4258C3.62577 12.4178 3.77215 12.2841 3.77215 12.1038V11.79V10.9304V9.66513V8.11334V6.42151V4.7136V3.12158V1.7694V0.801958C3.77215 0.649035 3.77533 0.49451 3.77215 0.341565V0.322249C3.77215 0.153227 3.62577 -0.007747 3.45392 0.000288752C3.2805 0.00833745 3.13569 0.141945 3.13569 0.322249Z"
+                                                      fill="black"></path>
+                                                <path d="M8.1857 11.7319C8.5405 12.0909 8.89533 12.4499 9.25173 12.8105C9.81339 13.3787 10.3735 13.9453 10.9351 14.5135C11.064 14.6439 11.1928 14.7743 11.3217 14.9047C11.4426 15.027 11.6495 15.0287 11.772 14.9047C12.1268 14.5457 12.4816 14.1868 12.838 13.8262C13.3997 13.2579 13.9598 12.6913 14.5214 12.1231C14.6503 11.9927 14.7791 11.8623 14.908 11.7319C15.0258 11.6128 15.0353 11.3939 14.908 11.2764C14.7807 11.1588 14.5834 11.1492 14.4577 11.2764C14.1029 11.6353 13.7481 11.9943 13.3917 12.3549C12.83 12.9231 12.27 13.4898 11.7083 14.058C11.5795 14.1884 11.4506 14.3188 11.3217 14.4491H11.772L10.706 13.3706C10.1459 12.804 9.58425 12.2374 9.02262 11.6691C8.89374 11.5387 8.76486 11.4083 8.63599 11.278C8.51824 11.1588 8.30187 11.1492 8.1857 11.278C8.06955 11.4051 8.06 11.6047 8.1857 11.7319V11.7319Z"
+                                                      fill="black"></path>
+                                                <path d="M11.8644 14.6776V14.3637V13.5041V12.2389V10.6871V8.99524V7.28733V5.69531V4.34313V3.37569C11.8644 3.22277 11.8676 3.06824 11.8644 2.9153V2.89598C11.8644 2.72696 11.7181 2.56598 11.5462 2.57402C11.3744 2.58205 11.228 2.71568 11.228 2.89598V3.20987V4.06946V5.3347V6.88648V8.57832V10.2862V11.8782V13.2304V14.1979C11.228 14.3508 11.2248 14.5053 11.228 14.6583V14.6776C11.228 14.8466 11.3744 15.0076 11.5462 14.9995C11.7196 14.9915 11.8644 14.8579 11.8644 14.6776Z"
+                                                      fill="black"></path>
+                                            </svg>
+                                            <span>Сравнить</span>
+                                        </a>
+                                        <a class="product-card__favorite" href="#">
+                                            <svg width="15" height="15" viewBox="0 0 16 15" fill="none"
+                                                 xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M12.7426 15L7.87494 12.4365L3.0073 15L3.93656 9.5732L0 5.72946L5.44118 4.93709L7.87506 0L10.3088 4.9374L15.75 5.72977L11.8119 9.5732L12.7426 15ZM0.962493 6.04252L4.41872 9.41683L3.60254 14.1794L7.87512 11.9305L12.1477 14.1794L11.3314 9.41527L14.7876 6.04096L10.0113 5.34515L7.87515 1.01357L5.73886 5.34671L0.962493 6.04252Z"
+                                                      fill="black"></path>
+                                            </svg>
+                                            <span>Добавить в избранное</span>
+                                        </a>
+                                    </div>
+                                    <div class="product-card__availability">
+                                        <div class="product-card__price">
+                                            от 599 990 ₽
+                                        </div>
+                                        <div class="product-card__stocks">
+                                            <div class="stocks-status in_stocks">В наличии</div>
+                                        </div>
+                                    </div>
+                                    <div class="product-card__btns">
+                                        <a href="#" class="btn btn--dark">в корзину</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product-card">
+                                <a href="/product_card.html" class="product-card__img">
+                                    <span class="product-card__brand-logo">
+                                      <img src="./img/catalog/cat-item-brand-1.png" alt="product-card-brand">
+                                    </span>
+                                    <img src="./img/catalog/cat-item-1.jpg" alt="product-card">
+                                </a>
+                                <div class="product-card__content">
+                                    <div class="product-card__brand">KEF</div>
+                                    <a class="product-card__title" href="/product_card.html">KEF R11</a>
+                                    <div class="product-card__desc">Напольная акустическая система</div>
+                                    <div class="product-card__actions">
+                                        <a class="product-card__compare" href="#">
+                                            <svg width="15" height="15" viewBox="0 0 15 15" fill="none"
+                                                 xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M0.542179 3.72219L3.67822 0.549388H3.22794C3.58274 0.908348 3.93757 1.26734 4.29397 1.62792C4.85563 2.19616 5.41569 2.76278 5.97732 3.33099C6.1062 3.46138 6.23508 3.59177 6.36395 3.72216C6.48169 3.84128 6.69807 3.85093 6.81424 3.72216C6.93039 3.59338 6.93993 3.39378 6.81424 3.26659C6.45944 2.90763 6.10461 2.54864 5.74821 2.18806C5.18654 1.61982 4.62649 1.0532 4.06485 0.484984C3.93598 0.354596 3.8071 0.224208 3.67822 0.0938229C3.5573 -0.0285148 3.35045 -0.0301249 3.22794 0.0938229C2.87313 0.452783 2.5183 0.811772 2.1619 1.17235C1.60024 1.74059 1.04018 2.30722 0.47855 2.87543C0.349673 3.00582 0.220795 3.13621 0.0919199 3.26659C-0.0258207 3.38571 -0.0353664 3.60462 0.0919199 3.72216C0.219206 3.84128 0.416493 3.85093 0.542208 3.72216L0.542179 3.72219Z"
+                                                      fill="black"></path>
+                                                <path d="M3.13569 0.322249V0.636143V1.49573V2.76097V4.31275V6.00458V7.71249V9.30451V10.6567V11.6241C3.13569 11.7771 3.13251 11.9316 3.13569 12.0845V12.1038C3.13569 12.2729 3.28207 12.4338 3.45392 12.4258C3.62577 12.4178 3.77215 12.2841 3.77215 12.1038V11.79V10.9304V9.66513V8.11334V6.42151V4.7136V3.12158V1.7694V0.801958C3.77215 0.649035 3.77533 0.49451 3.77215 0.341565V0.322249C3.77215 0.153227 3.62577 -0.007747 3.45392 0.000288752C3.2805 0.00833745 3.13569 0.141945 3.13569 0.322249Z"
+                                                      fill="black"></path>
+                                                <path d="M8.1857 11.7319C8.5405 12.0909 8.89533 12.4499 9.25173 12.8105C9.81339 13.3787 10.3735 13.9453 10.9351 14.5135C11.064 14.6439 11.1928 14.7743 11.3217 14.9047C11.4426 15.027 11.6495 15.0287 11.772 14.9047C12.1268 14.5457 12.4816 14.1868 12.838 13.8262C13.3997 13.2579 13.9598 12.6913 14.5214 12.1231C14.6503 11.9927 14.7791 11.8623 14.908 11.7319C15.0258 11.6128 15.0353 11.3939 14.908 11.2764C14.7807 11.1588 14.5834 11.1492 14.4577 11.2764C14.1029 11.6353 13.7481 11.9943 13.3917 12.3549C12.83 12.9231 12.27 13.4898 11.7083 14.058C11.5795 14.1884 11.4506 14.3188 11.3217 14.4491H11.772L10.706 13.3706C10.1459 12.804 9.58425 12.2374 9.02262 11.6691C8.89374 11.5387 8.76486 11.4083 8.63599 11.278C8.51824 11.1588 8.30187 11.1492 8.1857 11.278C8.06955 11.4051 8.06 11.6047 8.1857 11.7319V11.7319Z"
+                                                      fill="black"></path>
+                                                <path d="M11.8644 14.6776V14.3637V13.5041V12.2389V10.6871V8.99524V7.28733V5.69531V4.34313V3.37569C11.8644 3.22277 11.8676 3.06824 11.8644 2.9153V2.89598C11.8644 2.72696 11.7181 2.56598 11.5462 2.57402C11.3744 2.58205 11.228 2.71568 11.228 2.89598V3.20987V4.06946V5.3347V6.88648V8.57832V10.2862V11.8782V13.2304V14.1979C11.228 14.3508 11.2248 14.5053 11.228 14.6583V14.6776C11.228 14.8466 11.3744 15.0076 11.5462 14.9995C11.7196 14.9915 11.8644 14.8579 11.8644 14.6776Z"
+                                                      fill="black"></path>
+                                            </svg>
+                                            <span>Сравнить</span>
+                                        </a>
+                                        <a class="product-card__favorite" href="#">
+                                            <svg width="15" height="15" viewBox="0 0 16 15" fill="none"
+                                                 xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M12.7426 15L7.87494 12.4365L3.0073 15L3.93656 9.5732L0 5.72946L5.44118 4.93709L7.87506 0L10.3088 4.9374L15.75 5.72977L11.8119 9.5732L12.7426 15ZM0.962493 6.04252L4.41872 9.41683L3.60254 14.1794L7.87512 11.9305L12.1477 14.1794L11.3314 9.41527L14.7876 6.04096L10.0113 5.34515L7.87515 1.01357L5.73886 5.34671L0.962493 6.04252Z"
+                                                      fill="black"></path>
+                                            </svg>
+                                            <span>Добавить в избранное</span>
+                                        </a>
+                                    </div>
+                                    <div class="product-card__availability">
+                                        <div class="product-card__price">
+                                            от 599 990 ₽
+                                        </div>
+                                        <div class="product-card__stocks">
+                                            <div class="stocks-status in_stocks">В наличии</div>
+                                        </div>
+                                    </div>
+                                    <div class="product-card__btns">
+                                        <a href="#" class="btn btn--dark">в корзину</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination-circles swiper-pagination-circles--grey"></div>
+                </div>
             </div>
         </div>
     </section>
-
 </main>
 <footer class="footer">
     <div class="container">
