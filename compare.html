@@ -121,89 +121,309 @@
 </header>
 
 <main>
-    <style>
-        a {
-            display: inline-block;
-            margin-bottom: 20px;
-        }
-    </style>
-    <section class="sitemap">
-        <div class="container">
-            <div style="margin: 80px 0;">
-                <div>
-                    <a class="btn" href="./">Главная</a>
+    <section class="container">
+        <div class="breadcrumbs">
+    <div class="breadcrumbs__wrapper">
+        <ul class="breadcrumbs__list">
+            <li class="breadcrumbs__item">
+                <a href="#">
+                    Главная
+                </a>
+            </li>
+            <li class="breadcrumbs__item">
+                <a href="#">
+                    Товары
+                </a>
+            </li>
+            <li class="breadcrumbs__item">
+                <span>KEF Reference 5</span>
+            </li>
+        </ul>
+    </div>
+</div>
+
+    </section>
+    <section class="compare">
+        <div class="compare__top-wrapper">
+            <div class="container">
+                <div class="compare__wrapper">
+                    <h1 class="compare__title">Сравнение</h1>
+                    <div class="compare__top">
+                        <div class="compare__amount">
+                            Товаров: 4
+                        </div>
+                        <div class="compare__functional">
+                            <div class="compare__btns">
+                                <a href="#" class="btn">Показать отличия</a>
+                                <a href="#" class="btn">Очистить</a>
+                            </div>
+                            <a class="compare__print" href="#">печать</a>
+                        </div>
+                    </div>
                 </div>
-                <div>
-                    <a class="btn" href="/catalog.html">Каталог</a>
+            </div>
+        </div>
+        <div class="compare__main">
+            <div class="nav-next"></div>
+            <div class="nav-prev"></div>
+            <div class="compare__middle-wrapper">
+                <div class="container">
+                    <div class="compare__face">
+                        <div class="compare__props compare-props">
+                            <div class="compare-props__title">параметры сравнения</div>
+                            <div class="compare-props__items">
+                                <div class="form-input">
+                                    <input type="checkbox" name="prop" id="prop1">
+                                    <label for="prop1">
+                                        Цена</label>
+                                </div>
+                                <div class="form-input">
+                                    <input type="checkbox" name="prop" id="prop2">
+                                    <label for="prop2">
+                                        Производитель</label>
+                                </div>
+                                <div class="form-input">
+                                    <input type="checkbox" name="prop" id="prop3">
+                                    <label for="prop3">
+                                        Новинка</label>
+                                </div>
+                                <div class="form-input">
+                                    <input type="checkbox" name="prop" id="prop4">
+                                    <label for="prop4">
+                                        звучание</label>
+                                </div>
+                                <div class="form-input">
+                                    <input type="checkbox" name="prop" id="prop5">
+                                    <label for="prop5">
+                                        Свойство</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="compare__products swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="product-card">
+                                        <a href="/product_card.html" class="product-card__img">
+                                    <span class="product-card__brand-logo">
+                                      <img src="./img/catalog/cat-item-brand-1.png" alt="product-card-brand">
+                                    </span>
+                                            <img src="./img/catalog/cat-item-1.jpg" alt="product-card">
+                                        </a>
+                                        <div class="product-card__content">
+                                            <div class="product-card__brand">KEF</div>
+                                            <a class="product-card__title" href="/product_card.html">KEF R11</a>
+                                            <div class="product-card__desc">Напольная акустическая система</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="product-card">
+                                        <a href="/product_card.html" class="product-card__img">
+                                    <span class="product-card__brand-logo">
+                                      <img src="./img/catalog/cat-item-brand-1.png" alt="product-card-brand">
+                                    </span>
+                                            <img src="./img/catalog/cat-item-1.jpg" alt="product-card">
+                                        </a>
+                                        <div class="product-card__content">
+                                            <div class="product-card__brand">KEF</div>
+                                            <a class="product-card__title" href="/product_card.html">KEF R11</a>
+                                            <div class="product-card__desc">Напольная акустическая система</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="product-card">
+                                        <a href="/product_card.html" class="product-card__img">
+                                    <span class="product-card__brand-logo">
+                                      <img src="./img/catalog/cat-item-brand-1.png" alt="product-card-brand">
+                                    </span>
+                                            <img src="./img/catalog/cat-item-1.jpg" alt="product-card">
+                                        </a>
+                                        <div class="product-card__content">
+                                            <div class="product-card__brand">KEF</div>
+                                            <a class="product-card__title" href="/product_card.html">KEF R11</a>
+                                            <div class="product-card__desc">Напольная акустическая система</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="product-card">
+                                        <a href="/product_card.html" class="product-card__img">
+                                    <span class="product-card__brand-logo">
+                                      <img src="./img/catalog/cat-item-brand-1.png" alt="product-card-brand">
+                                    </span>
+                                            <img src="./img/catalog/cat-item-1.jpg" alt="product-card">
+                                        </a>
+                                        <div class="product-card__content">
+                                            <div class="product-card__brand">KEF</div>
+                                            <a class="product-card__title" href="/product_card.html">KEF R11</a>
+                                            <div class="product-card__desc">Напольная акустическая система</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="product-card">
+                                        <a href="/product_card.html" class="product-card__img">
+                                    <span class="product-card__brand-logo">
+                                      <img src="./img/catalog/cat-item-brand-1.png" alt="product-card-brand">
+                                    </span>
+                                            <img src="./img/catalog/cat-item-1.jpg" alt="product-card">
+                                        </a>
+                                        <div class="product-card__content">
+                                            <div class="product-card__brand">KEF</div>
+                                            <a class="product-card__title" href="/product_card.html">KEF R11</a>
+                                            <div class="product-card__desc">Напольная акустическая система</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="product-card">
+                                        <a href="/product_card.html" class="product-card__img">
+                                    <span class="product-card__brand-logo">
+                                      <img src="./img/catalog/cat-item-brand-1.png" alt="product-card-brand">
+                                    </span>
+                                            <img src="./img/catalog/cat-item-1.jpg" alt="product-card">
+                                        </a>
+                                        <div class="product-card__content">
+                                            <div class="product-card__brand">KEF</div>
+                                            <a class="product-card__title" href="/product_card.html">KEF R11</a>
+                                            <div class="product-card__desc">Напольная акустическая система</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div>
-                    <a class="btn" href="./catalogComplects.html">Каталог комплектов</a>
+            </div>
+            <div class="compare__table compare-table">
+                <div class="compare-table__row">
+                    <div class="container">
+                        <div class="compare-table__row-wrapper">
+                            <div class="compare-table__label">
+                                Цена
+                            </div>
+                            <div class="compare-table__props swiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        326 000 руб.
+                                    </div>
+                                    <div class="swiper-slide">
+                                        325 000 руб.
+                                    </div>
+                                    <div class="swiper-slide">
+                                        325 000 руб.
+                                    </div>
+                                    <div class="swiper-slide">
+                                        325 000 руб.
+                                    </div>
+                                    <div class="swiper-slide">
+                                        325 000 руб.
+                                    </div>
+                                    <div class="swiper-slide">
+                                        325 000 руб.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div>
-                    <a class="btn" href="./productCard.html">Карточка товара</a>
-                    <a class="btn" href="./complectCard.html">Карточка товара (комплект)</a>
+                <div class="compare-table__row">
+                    <div class="container">
+                        <div class="compare-table__row-wrapper">
+                            <div class="compare-table__label">
+                                Производитель
+                            </div>
+                            <div class="compare-table__props swiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        KEF
+                                    </div>
+                                    <div class="swiper-slide">
+                                        KEF2
+                                    </div>
+                                    <div class="swiper-slide">
+                                        KEF
+                                    </div>
+                                    <div class="swiper-slide">
+                                        KEF2
+                                    </div>
+                                    <div class="swiper-slide">
+                                        KEF
+                                    </div>
+                                    <div class="swiper-slide">
+                                        KEF2
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div>
-                    <a class="btn" href="./projectCard.html">Карточка проекта</a>
+                <div class="compare-table__row">
+                    <div class="container">
+                        <div class="compare-table__row-wrapper">
+                            <div class="compare-table__label">
+                                Новинка
+                            </div>
+                            <div class="compare-table__props swiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        Да
+                                    </div>
+                                    <div class="swiper-slide">
+                                        Нет
+                                    </div>
+                                    <div class="swiper-slide">
+                                        Да
+                                    </div>
+                                    <div class="swiper-slide">
+                                        Нет
+                                    </div>
+                                    <div class="swiper-slide">
+                                        Да
+                                    </div>
+                                    <div class="swiper-slide">
+                                        Нет
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div>
-                    <a class="btn" href="./projects.html">Проекты</a>
-                </div>
-                <div>
-                    <a class="btn" href="./services.html">Услуги</a>
-                </div>
-                <div>
-                    <a class="btn" href="./about.html">О компании</a>
-                </div>
-                <div>
-                    <a class="btn" href="./news.html">Новости</a>
-                </div>
-                <div>
-                    <a class="btn" href="./newsPage.html">Страница новости</a>
-                </div>
-                <div>
-                    <a class="btn" href="./brandPage.html">Страница бренда</a>
-                </div>
-                <div>
-                    <a class="btn" href="./brands.html">Бренды разводящая</a>
-                </div>
-                <div>
-                    <a class="btn" href="./showroom.html">Шоурум</a>
-                </div>
-                <div>
-                    <a class="btn" href="./favorites.html">Избранное</a>
-                </div>
-                <div>
-                    <a class="btn" href="./contacts.html">Контакты</a>
-                </div>
-                <div>
-                    <a class="btn" href="./partners.html">Партнерам</a>
-                </div>
-                <div>
-                    <a class="btn" href="./deliveryAndPayments.html">Доставка и оплата</a>
-                </div>
-                <div>
-                    <a class="btn" href="./basket.html">Корзина</a>
-                </div>
-                <div>
-                    <a class="btn" href="./order.html">Заказ</a>
-                </div>
-                <div>
-                    <a class="btn" href="./compare.html">Сравнение товаров</a>
-                </div>
-                <div>
-                    <a class="btn" href="./lkMain.html">Личный кабинет главная</a>
-                </div>
-                <div>
-                    <a class="btn" href="./lkOrders.html">Личный кабинет заказы</a>
-                </div>
-                <div>
-                    <a class="btn" href="./lkNotifications.html">Личный кабинет уведомления</a>
+                <div class="compare-table__row">
+                    <div class="container">
+                        <div class="compare-table__row-wrapper">
+                            <div class="compare-table__label">
+                                Свойство
+                            </div>
+                            <div class="compare-table__props swiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        тарата 1
+                                    </div>
+                                    <div class="swiper-slide">
+                                        т2а
+                                    </div>
+                                    <div class="swiper-slide">
+                                        кутата 23
+                                    </div>
+                                    <div class="swiper-slide">
+                                        тарата 1
+                                    </div>
+                                    <div class="swiper-slide">
+                                        т2а
+                                    </div>
+                                    <div class="swiper-slide">
+                                        кутата 23
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-
 </main>
 <footer class="footer">
     <div class="container">
